@@ -4,7 +4,9 @@ import logging
 import settings
 
 
-stock_code = '005930'  # 삼성전자
+#stock_code = '005930'  # 삼성전자  #2018-05-04
+stock_code = 'A000660'  # SK하이닉스
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 
 # 로그 기록
 log_dir = os.path.join(settings.BASE_DIR, 'logs/%s' % stock_code)
@@ -29,7 +31,7 @@ if __name__ == '__main__':
     # 주식 데이터 준비
     conn = pg2.connect("host = localhost dbname=stock user=postgres password=x port=5432")
     cur = conn.cursor()
-    cur.execute("select * from stock_price where company='{}'".format('삼성전자'))
+    cur.execute("select * from stock_price where company='{}'".format('SK하이닉스'))
     rows = cur.fetchall()
     #max_date = pd.DataFrame(rows)[0].min()
     chart_data = pd.DataFrame(rows,columns=['company','code','date','open','high','low','close','diff', 'volume'])
@@ -45,8 +47,8 @@ if __name__ == '__main__':
     training_data = data_manager.build_training_data(prep_data)
 
     # 기간 필터링
-    training_data = training_data[(training_data['date'] >= '2018-05-04') &
-                                  (training_data['date'] <= '2019-06-01')]
+    training_data = training_data[(training_data['date'] >= '2010-01-01') &
+                                  (training_data['date'] <= '2018-12-31')]
     training_data = training_data.dropna()
 
     # 차트 데이터 분리
@@ -68,8 +70,9 @@ if __name__ == '__main__':
     # 강화학습 시작
     policy_learner = PolicyLearner(
         stock_code=stock_code, chart_data=chart_data, training_data=training_data,
-        min_trading_unit=10, max_trading_unit=20, delayed_reward_threshold=.05, lr=.0001)
-    policy_learner.fit(balance=10000000, num_epoches=1000,
+        min_trading_unit=10, max_trading_unit=10, delayed_reward_threshold=.05, lr=.0001)
+    #policy_network.load_model(model_path=model_path)
+    policy_learner.fit(balance=3000000, num_epoches=1000,
                        discount_factor=0, start_epsilon=.5)
 
     # 정책 신경망을 파일로 저장

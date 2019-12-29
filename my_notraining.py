@@ -3,12 +3,14 @@ import os
 import settings
 import data_manager
 from policy_learner import PolicyLearner
-
+import psycopg2 as pg2 
+import pandas as pd
+import numpy as np
 
 if __name__ == '__main__':
     stock_code = '005930'  # 삼성전자
+    #stock_code = 'A000660'  # SK하이닉스
     model_ver = '20191229182138'
-
     # 로그 기록
     log_dir = os.path.join(settings.BASE_DIR, 'logs/%s' % stock_code)
     timestr = settings.get_time_str()
@@ -35,15 +37,13 @@ if __name__ == '__main__':
     chart_data['close'] = chart_data['close'].astype('int64')
     chart_data['volume'] = chart_data['volume'].astype('int64')
 
-
     prep_data = data_manager.preprocess(chart_data)
     training_data = data_manager.build_training_data(prep_data)
 
     # 기간 필터링
-    training_data = training_data[(training_data['date'] >= '2019-01-01') &
-                                  (training_data['date'] <= '2019-12-27')]
+    training_data = training_data[(training_data['date'] >= '2019-05-01') &
+                                  (training_data['date'] <= '2019-07-05')]
     training_data = training_data.dropna()
-
     # 차트 데이터 분리
     features_chart_data = ['date', 'open', 'high', 'low', 'close', 'volume']
     chart_data = training_data[features_chart_data]
@@ -63,7 +63,7 @@ if __name__ == '__main__':
     # 비 학습 투자 시뮬레이션 시작
     policy_learner = PolicyLearner(
         stock_code=stock_code, chart_data=chart_data, training_data=training_data,
-        min_trading_unit=1, max_trading_unit=3)
+        min_trading_unit=1, max_trading_unit=20)
     policy_learner.trade(balance=10000000,
                          model_path=os.path.join(
                              settings.BASE_DIR,
