@@ -1,0 +1,899 @@
+Loaded backend TkAgg version unknown.
+From E:\Anaconda3\envs\cra\lib\site-packages\keras\backend\tensorflow_backend.py:74: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+From E:\Anaconda3\envs\cra\lib\site-packages\keras\backend\tensorflow_backend.py:517: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+From E:\Anaconda3\envs\cra\lib\site-packages\keras\backend\tensorflow_backend.py:4138: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+From E:\Anaconda3\envs\cra\lib\site-packages\keras\backend\tensorflow_backend.py:133: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+From E:\Anaconda3\envs\cra\lib\site-packages\keras\backend\tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+From E:\Anaconda3\envs\cra\lib\site-packages\keras\optimizers.py:790: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+LR: 0.001, DF: 0, TU: [1, 2], DRT: 0.2
+From E:\Anaconda3\envs\cra\lib\site-packages\keras\backend\tensorflow_backend.py:2741: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+From E:\Anaconda3\envs\cra\lib\site-packages\tensorflow\python\ops\math_grad.py:1250: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal bold normal>) = 1.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 0.33499999999999996
+findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Georgia' (georgiaz.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'Arial' (ARIALNBI.TTF) italic normal bold condensed>) = 7.8986363636363635
+findfont: score(<Font 'Calibri' (calibriz.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'Calibri' (calibrib.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Segoe Print' (segoepr.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (segoeuil.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'Tahoma' (tahomabd.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Gabriola' (Gabriola.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Book Antiqua' (BKANT.TTF) normal normal book normal>) = 10.05
+findfont: score(<Font 'Calibri' (calibri.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Palatino Linotype' (palabi.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'HYHeadLine-Medium' (H2HDRM.TTF) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Segoe UI Historic' (seguihis.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Consolas' (consolaz.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'HYMyeongJo-Extra' (H2MJRE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYPost-Medium' (H2PORM.TTF) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Microsoft Uighur' (MSUIGHUB.TTF) normal normal bold normal>) = 10.335
+findfont: score(<Font 'MingLiU-ExtB' (mingliub.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Malgun Gothic' (malgunsl.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'Times New Roman' (timesbd.ttf) normal normal roman normal>) = 10.145
+findfont: score(<Font 'HYPMokGak-Bold' (H2MKPB.TTF) normal normal bold normal>) = 10.335
+findfont: score(<Font 'HYGungSo-Bold' (H2GSRB.TTF) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Microsoft JhengHei' (msjh.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Trebuchet MS' (trebuc.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sitka Small' (SitkaZ.ttc) italic normal bold normal>) = 11.335
+findfont: score(<Font 'HCR Dotum' (HANDotum.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft Yi Baiti' (msyi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Arial' (arialbd.ttf) normal normal bold normal>) = 6.698636363636363
+findfont: score(<Font 'Ebrima' (ebrimabd.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Microsoft New Tai Lue' (ntailu.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sitka Small' (SitkaB.ttc) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Comic Sans MS' (comicz.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'Segoe Print' (segoeprb.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Segoe Script' (segoesc.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Courier New' (courbi.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'NewJumja' (JUMJA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Book Antiqua' (ANTQUAB.TTF) normal normal book normal>) = 10.05
+findfont: score(<Font 'Times New Roman' (timesi.ttf) italic normal roman normal>) = 11.145
+findfont: score(<Font 'Ebrima' (ebrima.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'TeamViewer14' (teamviewer14.otf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft Uighur' (MSUIGHUR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Marlett' (marlett.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Candara' (Candarali.ttf) italic normal light normal>) = 11.24
+findfont: score(<Font 'Corbel' (corbelb.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Verdana' (verdanai.ttf) italic normal 400 normal>) = 4.6863636363636365
+findfont: score(<Font 'Arial' (ariali.ttf) italic normal 400 normal>) = 7.413636363636363
+findfont: score(<Font 'Leelawadee UI' (LeelUIsl.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'Dubai' (DUBAI-BOLD.TTF) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Gadugi' (gadugi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Impact' (impact.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (seguisbi.ttf) italic normal semibold normal>) = 11.24
+findfont: score(<Font 'Courier New' (courbd.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Comic Sans MS' (comici.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Segoe Script' (segoescb.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Garamond' (GARABD.TTF) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Calibri' (calibrili.ttf) italic normal light normal>) = 11.24
+findfont: score(<Font 'Segoe UI' (seguibli.ttf) italic normal black normal>) = 11.525
+findfont: score(<Font 'Microsoft Tai Le' (taileb.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Microsoft Sans Serif' (micross.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft JhengHei' (msjhbd.ttc) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Bookshelf Symbol 7' (BSSYM7.TTF) normal normal book normal>) = 10.05
+findfont: score(<Font 'Bookman Old Style' (BOOKOSI.TTF) italic normal book normal>) = 11.05
+findfont: score(<Font 'Magic R' (HMKMMAG.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (seguibl.ttf) normal normal black normal>) = 10.525
+findfont: score(<Font 'MS Reference Sans Serif' (REFSAN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sitka Small' (Sitka.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tahoma' (tahoma.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bookman Old Style' (BOOKOS.TTF) normal normal book normal>) = 10.05
+findfont: score(<Font 'Monotype Corsiva' (MTCORSVA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Dubai' (DUBAI-REGULAR.TTF) normal normal regular normal>) = 10.05
+findfont: score(<Font 'Microsoft New Tai Lue' (ntailub.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Palatino Linotype' (pala.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Corbel' (corbelz.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'Microsoft JhengHei' (msjhl.ttc) normal normal light normal>) = 10.24
+findfont: score(<Font 'Georgia' (georgiab.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Segoe UI' (segoeuib.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Microsoft YaHei' (msyhl.ttc) normal normal light normal>) = 10.24
+findfont: score(<Font 'Segoe MDL2 Assets' (segmdl2.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'NanumGothic' (NanumGothicBold.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Ami R' (HMKMAMI.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Century Gothic' (GOTHIC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Constantia' (constani.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Segoe UI' (segoeuisl.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'Segoe UI' (segoeui.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Corbel' (corbelli.ttf) italic normal light normal>) = 11.24
+findfont: score(<Font 'Courier New' (couri.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Constantia' (constanz.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'Wingdings 3' (WINGDNG3.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Century Gothic' (GOTHICI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'MT Extra' (MTEXTRA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Candara' (Candaral.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'Dubai' (DUBAI-MEDIUM.TTF) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Palatino Linotype' (palab.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Leelawadee UI' (LeelawUI.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Symbol' (symbol.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (seguisli.ttf) italic normal light normal>) = 11.24
+findfont: score(<Font 'HYSinMyeongJo-Medium' (H2MJSM.TTF) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Microsoft YaHei' (msyh.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Nirmala UI' (Nirmala.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Yet R' (HMFMOLD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Nirmala UI' (NirmalaS.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'MS Reference Specialty' (REFSPCL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Myanmar Text' (mmrtextb.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'MoeumT R' (HMFMMUEX.TTC) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Corbel' (corbell.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'Cambria' (cambriaz.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'Microsoft YaHei' (msyhbd.ttc) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Microsoft Himalaya' (himalaya.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'New Gulim' (NGULIM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Leelawadee' (LEELAWAD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Cambria' (cambria.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Leelawadee' (LEELAWDB.TTF) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Courier New' (cour.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Malgun Gothic' (malgunbd.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Microsoft PhagsPa' (phagspab.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Segoe UI' (segoeuiz.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'HyhwpEQ' (HYHWPEQ.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Javanese Text' (javatext.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bookman Old Style' (BOOKOSBI.TTF) italic normal book normal>) = 11.05
+findfont: score(<Font 'Trebuchet MS' (trebucit.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Georgia' (georgiai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Arial' (ARIALN.TTF) normal normal 400 condensed>) = 6.613636363636363
+findfont: score(<Font 'MS Gothic' (msgothic.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Book Antiqua' (ANTQUAI.TTF) italic normal book normal>) = 11.05
+findfont: score(<Font 'SimSun' (simsun.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (segoeuii.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Franklin Gothic Medium' (framd.ttf) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Webdings' (webdings.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYShortSamul-Medium' (H2SA1M.TTF) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Lucida Console' (lucon.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Corbel' (corbeli.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Times New Roman' (times.ttf) normal normal roman normal>) = 10.145
+findfont: score(<Font 'Bookman Old Style' (BOOKOSB.TTF) normal normal book normal>) = 10.05
+findfont: score(<Font 'Pyunji R' (HMFMPYUN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Trebuchet MS' (trebucbd.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Verdana' (verdanaz.ttf) italic normal bold normal>) = 4.971363636363637
+findfont: score(<Font 'Book Antiqua' (ANTQUABI.TTF) italic normal book normal>) = 11.05
+findfont: score(<Font 'Candara' (Candarab.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Ink Free' (Inkfree.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Dubai' (DUBAI-LIGHT.TTF) normal normal light normal>) = 10.24
+findfont: score(<Font 'Lucida Sans Unicode' (l_10646.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Leelawadee UI' (LeelaUIb.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Constantia' (constan.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (seguisb.ttf) normal normal semibold normal>) = 10.24
+findfont: score(<Font 'Cambria' (cambriab.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Candara' (Candara.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Times New Roman' (timesbi.ttf) italic normal roman normal>) = 11.145
+findfont: score(<Font 'Franklin Gothic Medium' (framdit.ttf) italic normal medium normal>) = 11.145
+findfont: score(<Font 'Yu Gothic' (YuGothM.ttc) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Century' (CENTURY.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Candara' (Candaraz.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'Verdana' (verdana.ttf) normal normal 400 normal>) = 3.6863636363636365
+findfont: score(<Font 'Comic Sans MS' (comic.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft PhagsPa' (phagspa.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI Symbol' (seguisym.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYGothic-Medium' (H2GTRM.TTF) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Yu Gothic' (YuGothB.ttc) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Arial' (ARIALNI.TTF) italic normal 400 condensed>) = 7.613636363636363
+findfont: score(<Font 'Verdana' (verdanab.ttf) normal normal bold normal>) = 3.9713636363636367
+findfont: score(<Font 'Gadugi' (gadugib.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Bahnschrift' (bahnschrift.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Myanmar Text' (mmrtext.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gulim' (gulim.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calibri' (calibril.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'Mongolian Baiti' (monbaiti.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calibri' (calibrii.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Comic Sans MS' (comicbd.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Wingdings 2' (WINGDNG2.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft Tai Le' (taile.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SimSun-ExtB' (simsunb.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Consolas' (consolai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Corbel' (corbel.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Georgia' (georgia.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Consolas' (consola.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Arial' (ARIALNB.TTF) normal normal bold condensed>) = 6.8986363636363635
+findfont: score(<Font 'Yu Gothic' (YuGothR.ttc) normal normal regular normal>) = 10.05
+findfont: score(<Font 'Segoe UI Emoji' (seguiemj.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYGraphic-Medium' (H2GPRM.TTF) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Century Gothic' (GOTHICBI.TTF) italic normal bold normal>) = 11.335
+findfont: score(<Font 'Nirmala UI' (NirmalaB.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'HoloLens MDL2 Assets' (holomdl2.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'NanumGothic' (NanumGothic.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Wingdings' (wingding.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYPost-Light' (H2PORL.TTF) normal normal light normal>) = 10.24
+findfont: score(<Font 'Arial' (arial.ttf) normal normal 400 normal>) = 6.413636363636363
+findfont: score(<Font 'Palatino Linotype' (palai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Segoe UI' (seguili.ttf) italic normal light normal>) = 11.24
+findfont: score(<Font 'Arial' (arialbi.ttf) italic normal bold normal>) = 7.698636363636363
+findfont: score(<Font 'Trebuchet MS' (trebucbi.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'Yu Gothic' (YuGothL.ttc) normal normal light normal>) = 10.24
+findfont: score(<Font 'Batang' (batang.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sylfaen' (sylfaen.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Headline R' (HMKMRHD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HCR Batang' (HANBatang.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYGothic-Extra' (H2GTRE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Constantia' (constanb.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Consolas' (consolab.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Garamond' (GARA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Century Gothic' (GOTHICB.TTF) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Cambria' (cambriai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Arial' (ariblk.ttf) normal normal black normal>) = 6.888636363636364
+findfont: score(<Font 'Candara' (Candarai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Sitka Small' (SitkaI.ttc) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Garamond' (GARAIT.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'MV Boli' (mvboli.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Malgun Gothic' (malgun.ttf) normal normal 400 normal>) = 10.05
+findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('E:\\Anaconda3\\envs\\cra\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0.
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal bold normal>) = 1.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 0.33499999999999996
+findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Georgia' (georgiaz.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'Arial' (ARIALNBI.TTF) italic normal bold condensed>) = 7.8986363636363635
+findfont: score(<Font 'Calibri' (calibriz.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'Calibri' (calibrib.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Segoe Print' (segoepr.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (segoeuil.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'Tahoma' (tahomabd.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Gabriola' (Gabriola.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Book Antiqua' (BKANT.TTF) normal normal book normal>) = 10.05
+findfont: score(<Font 'Calibri' (calibri.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Palatino Linotype' (palabi.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'HYHeadLine-Medium' (H2HDRM.TTF) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Segoe UI Historic' (seguihis.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Consolas' (consolaz.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'HYMyeongJo-Extra' (H2MJRE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYPost-Medium' (H2PORM.TTF) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Microsoft Uighur' (MSUIGHUB.TTF) normal normal bold normal>) = 10.335
+findfont: score(<Font 'MingLiU-ExtB' (mingliub.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Malgun Gothic' (malgunsl.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'Times New Roman' (timesbd.ttf) normal normal roman normal>) = 10.145
+findfont: score(<Font 'HYPMokGak-Bold' (H2MKPB.TTF) normal normal bold normal>) = 10.335
+findfont: score(<Font 'HYGungSo-Bold' (H2GSRB.TTF) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Microsoft JhengHei' (msjh.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Trebuchet MS' (trebuc.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sitka Small' (SitkaZ.ttc) italic normal bold normal>) = 11.335
+findfont: score(<Font 'HCR Dotum' (HANDotum.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft Yi Baiti' (msyi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Arial' (arialbd.ttf) normal normal bold normal>) = 6.698636363636363
+findfont: score(<Font 'Ebrima' (ebrimabd.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Microsoft New Tai Lue' (ntailu.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sitka Small' (SitkaB.ttc) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Comic Sans MS' (comicz.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'Segoe Print' (segoeprb.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Segoe Script' (segoesc.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Courier New' (courbi.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'NewJumja' (JUMJA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Book Antiqua' (ANTQUAB.TTF) normal normal book normal>) = 10.05
+findfont: score(<Font 'Times New Roman' (timesi.ttf) italic normal roman normal>) = 11.145
+findfont: score(<Font 'Ebrima' (ebrima.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'TeamViewer14' (teamviewer14.otf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft Uighur' (MSUIGHUR.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Marlett' (marlett.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Candara' (Candarali.ttf) italic normal light normal>) = 11.24
+findfont: score(<Font 'Corbel' (corbelb.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Verdana' (verdanai.ttf) italic normal 400 normal>) = 4.6863636363636365
+findfont: score(<Font 'Arial' (ariali.ttf) italic normal 400 normal>) = 7.413636363636363
+findfont: score(<Font 'Leelawadee UI' (LeelUIsl.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'Dubai' (DUBAI-BOLD.TTF) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Gadugi' (gadugi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Impact' (impact.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (seguisbi.ttf) italic normal semibold normal>) = 11.24
+findfont: score(<Font 'Courier New' (courbd.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Comic Sans MS' (comici.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Segoe Script' (segoescb.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Garamond' (GARABD.TTF) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Calibri' (calibrili.ttf) italic normal light normal>) = 11.24
+findfont: score(<Font 'Segoe UI' (seguibli.ttf) italic normal black normal>) = 11.525
+findfont: score(<Font 'Microsoft Tai Le' (taileb.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Microsoft Sans Serif' (micross.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft JhengHei' (msjhbd.ttc) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Bookshelf Symbol 7' (BSSYM7.TTF) normal normal book normal>) = 10.05
+findfont: score(<Font 'Bookman Old Style' (BOOKOSI.TTF) italic normal book normal>) = 11.05
+findfont: score(<Font 'Magic R' (HMKMMAG.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (seguibl.ttf) normal normal black normal>) = 10.525
+findfont: score(<Font 'MS Reference Sans Serif' (REFSAN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sitka Small' (Sitka.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tahoma' (tahoma.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bookman Old Style' (BOOKOS.TTF) normal normal book normal>) = 10.05
+findfont: score(<Font 'Monotype Corsiva' (MTCORSVA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Dubai' (DUBAI-REGULAR.TTF) normal normal regular normal>) = 10.05
+findfont: score(<Font 'Microsoft New Tai Lue' (ntailub.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Palatino Linotype' (pala.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Corbel' (corbelz.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'Microsoft JhengHei' (msjhl.ttc) normal normal light normal>) = 10.24
+findfont: score(<Font 'Georgia' (georgiab.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Segoe UI' (segoeuib.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Microsoft YaHei' (msyhl.ttc) normal normal light normal>) = 10.24
+findfont: score(<Font 'Segoe MDL2 Assets' (segmdl2.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'NanumGothic' (NanumGothicBold.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Ami R' (HMKMAMI.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Century Gothic' (GOTHIC.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Constantia' (constani.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Segoe UI' (segoeuisl.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'Segoe UI' (segoeui.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Corbel' (corbelli.ttf) italic normal light normal>) = 11.24
+findfont: score(<Font 'Courier New' (couri.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Constantia' (constanz.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'Wingdings 3' (WINGDNG3.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Century Gothic' (GOTHICI.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'MT Extra' (MTEXTRA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Candara' (Candaral.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'Dubai' (DUBAI-MEDIUM.TTF) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Palatino Linotype' (palab.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Leelawadee UI' (LeelawUI.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Symbol' (symbol.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (seguisli.ttf) italic normal light normal>) = 11.24
+findfont: score(<Font 'HYSinMyeongJo-Medium' (H2MJSM.TTF) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Microsoft YaHei' (msyh.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Nirmala UI' (Nirmala.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Yet R' (HMFMOLD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Nirmala UI' (NirmalaS.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'MS Reference Specialty' (REFSPCL.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Myanmar Text' (mmrtextb.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'MoeumT R' (HMFMMUEX.TTC) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Corbel' (corbell.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'Cambria' (cambriaz.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'Microsoft YaHei' (msyhbd.ttc) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Microsoft Himalaya' (himalaya.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'New Gulim' (NGULIM.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Leelawadee' (LEELAWAD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Cambria' (cambria.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Leelawadee' (LEELAWDB.TTF) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Courier New' (cour.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Malgun Gothic' (malgunbd.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Microsoft PhagsPa' (phagspab.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Segoe UI' (segoeuiz.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'HyhwpEQ' (HYHWPEQ.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Javanese Text' (javatext.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Bookman Old Style' (BOOKOSBI.TTF) italic normal book normal>) = 11.05
+findfont: score(<Font 'Trebuchet MS' (trebucit.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Georgia' (georgiai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Arial' (ARIALN.TTF) normal normal 400 condensed>) = 6.613636363636363
+findfont: score(<Font 'MS Gothic' (msgothic.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Book Antiqua' (ANTQUAI.TTF) italic normal book normal>) = 11.05
+findfont: score(<Font 'SimSun' (simsun.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (segoeuii.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Franklin Gothic Medium' (framd.ttf) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Webdings' (webdings.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYShortSamul-Medium' (H2SA1M.TTF) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Lucida Console' (lucon.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Corbel' (corbeli.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Times New Roman' (times.ttf) normal normal roman normal>) = 10.145
+findfont: score(<Font 'Bookman Old Style' (BOOKOSB.TTF) normal normal book normal>) = 10.05
+findfont: score(<Font 'Pyunji R' (HMFMPYUN.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Trebuchet MS' (trebucbd.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Verdana' (verdanaz.ttf) italic normal bold normal>) = 4.971363636363637
+findfont: score(<Font 'Book Antiqua' (ANTQUABI.TTF) italic normal book normal>) = 11.05
+findfont: score(<Font 'Candara' (Candarab.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Ink Free' (Inkfree.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Dubai' (DUBAI-LIGHT.TTF) normal normal light normal>) = 10.24
+findfont: score(<Font 'Lucida Sans Unicode' (l_10646.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Leelawadee UI' (LeelaUIb.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Constantia' (constan.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI' (seguisb.ttf) normal normal semibold normal>) = 10.24
+findfont: score(<Font 'Cambria' (cambriab.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Candara' (Candara.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Times New Roman' (timesbi.ttf) italic normal roman normal>) = 11.145
+findfont: score(<Font 'Franklin Gothic Medium' (framdit.ttf) italic normal medium normal>) = 11.145
+findfont: score(<Font 'Yu Gothic' (YuGothM.ttc) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Century' (CENTURY.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Candara' (Candaraz.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'Verdana' (verdana.ttf) normal normal 400 normal>) = 3.6863636363636365
+findfont: score(<Font 'Comic Sans MS' (comic.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft PhagsPa' (phagspa.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Segoe UI Symbol' (seguisym.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYGothic-Medium' (H2GTRM.TTF) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Yu Gothic' (YuGothB.ttc) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Arial' (ARIALNI.TTF) italic normal 400 condensed>) = 7.613636363636363
+findfont: score(<Font 'Verdana' (verdanab.ttf) normal normal bold normal>) = 3.9713636363636367
+findfont: score(<Font 'Gadugi' (gadugib.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Bahnschrift' (bahnschrift.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Myanmar Text' (mmrtext.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Gulim' (gulim.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calibri' (calibril.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'Mongolian Baiti' (monbaiti.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Calibri' (calibrii.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Comic Sans MS' (comicbd.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Wingdings 2' (WINGDNG2.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Microsoft Tai Le' (taile.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'SimSun-ExtB' (simsunb.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Consolas' (consolai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Corbel' (corbel.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Georgia' (georgia.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Consolas' (consola.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Arial' (ARIALNB.TTF) normal normal bold condensed>) = 6.8986363636363635
+findfont: score(<Font 'Yu Gothic' (YuGothR.ttc) normal normal regular normal>) = 10.05
+findfont: score(<Font 'Segoe UI Emoji' (seguiemj.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYGraphic-Medium' (H2GPRM.TTF) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Century Gothic' (GOTHICBI.TTF) italic normal bold normal>) = 11.335
+findfont: score(<Font 'Nirmala UI' (NirmalaB.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'HoloLens MDL2 Assets' (holomdl2.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'NanumGothic' (NanumGothic.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Wingdings' (wingding.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYPost-Light' (H2PORL.TTF) normal normal light normal>) = 10.24
+findfont: score(<Font 'Arial' (arial.ttf) normal normal 400 normal>) = 6.413636363636363
+findfont: score(<Font 'Palatino Linotype' (palai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Segoe UI' (seguili.ttf) italic normal light normal>) = 11.24
+findfont: score(<Font 'Arial' (arialbi.ttf) italic normal bold normal>) = 7.698636363636363
+findfont: score(<Font 'Trebuchet MS' (trebucbi.ttf) italic normal bold normal>) = 11.335
+findfont: score(<Font 'Yu Gothic' (YuGothL.ttc) normal normal light normal>) = 10.24
+findfont: score(<Font 'Batang' (batang.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sylfaen' (sylfaen.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Headline R' (HMKMRHD.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HCR Batang' (HANBatang.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'HYGothic-Extra' (H2GTRE.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Constantia' (constanb.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Consolas' (consolab.ttf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Garamond' (GARA.TTF) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Century Gothic' (GOTHICB.TTF) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Cambria' (cambriai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Arial' (ariblk.ttf) normal normal black normal>) = 6.888636363636364
+findfont: score(<Font 'Candara' (Candarai.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Sitka Small' (SitkaI.ttc) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Garamond' (GARAIT.TTF) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'MV Boli' (mvboli.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Malgun Gothic' (malgun.ttf) normal normal 400 normal>) = 10.05
+findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('E:\\Anaconda3\\envs\\cra\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+[Epoch 0001/1000]	Epsilon:0.5000	#Expl.:124/262	#Buy:99	#Sell:99	#Hold:64	#Stocks:0	PV:₩9,997,300	POS:2	NEG:2	Loss:  0.191969
+[Epoch 0002/1000]	Epsilon:0.4995	#Expl.:136/262	#Buy:110	#Sell:106	#Hold:46	#Stocks:4	PV:₩10,070,250	POS:3	NEG:1	Loss:  0.181810
+[Epoch 0003/1000]	Epsilon:0.4990	#Expl.:145/262	#Buy:126	#Sell:118	#Hold:18	#Stocks:8	PV:₩10,091,950	POS:4	NEG:0	Loss:  0.181160
+[Epoch 0004/1000]	Epsilon:0.4985	#Expl.:129/262	#Buy:128	#Sell:122	#Hold:12	#Stocks:6	PV:₩10,042,950	POS:3	NEG:1	Loss:  0.184555
+[Epoch 0005/1000]	Epsilon:0.4980	#Expl.:141/262	#Buy:104	#Sell:103	#Hold:55	#Stocks:1	PV:₩10,043,550	POS:3	NEG:1	Loss:  0.183932
+[Epoch 0006/1000]	Epsilon:0.4975	#Expl.:127/262	#Buy:133	#Sell:127	#Hold:2	#Stocks:6	PV:₩10,094,950	POS:3	NEG:1	Loss:  0.181647
+[Epoch 0007/1000]	Epsilon:0.4970	#Expl.:120/262	#Buy:116	#Sell:112	#Hold:34	#Stocks:4	PV:₩10,025,100	POS:3	NEG:1	Loss:  0.186811
+[Epoch 0008/1000]	Epsilon:0.4965	#Expl.:123/262	#Buy:116	#Sell:110	#Hold:36	#Stocks:6	PV:₩10,037,850	POS:2	NEG:2	Loss:  0.194517
+[Epoch 0009/1000]	Epsilon:0.4960	#Expl.:137/262	#Buy:134	#Sell:125	#Hold:3	#Stocks:9	PV:₩10,084,250	POS:2	NEG:2	Loss:  0.178745
+[Epoch 0010/1000]	Epsilon:0.4955	#Expl.:137/262	#Buy:109	#Sell:109	#Hold:44	#Stocks:0	PV:₩10,010,450	POS:4	NEG:0	Loss:  0.181047
+[Epoch 0011/1000]	Epsilon:0.4950	#Expl.:132/262	#Buy:141	#Sell:121	#Hold:0	#Stocks:20	PV:₩10,163,450	POS:3	NEG:1	Loss:  0.171012
+[Epoch 0012/1000]	Epsilon:0.4945	#Expl.:120/262	#Buy:122	#Sell:109	#Hold:31	#Stocks:13	PV:₩10,090,800	POS:3	NEG:1	Loss:  0.178857
+[Epoch 0013/1000]	Epsilon:0.4940	#Expl.:138/262	#Buy:122	#Sell:115	#Hold:25	#Stocks:7	PV:₩10,026,700	POS:2	NEG:2	Loss:  0.184083
+[Epoch 0014/1000]	Epsilon:0.4935	#Expl.:131/262	#Buy:117	#Sell:116	#Hold:29	#Stocks:1	PV:₩10,004,350	POS:3	NEG:1	Loss:  0.181977
+[Epoch 0015/1000]	Epsilon:0.4930	#Expl.:125/262	#Buy:135	#Sell:127	#Hold:0	#Stocks:8	PV:₩10,047,450	POS:2	NEG:2	Loss:  0.188028
+[Epoch 0016/1000]	Epsilon:0.4925	#Expl.:146/262	#Buy:136	#Sell:125	#Hold:1	#Stocks:11	PV:₩10,092,650	POS:3	NEG:1	Loss:  0.187709
+[Epoch 0017/1000]	Epsilon:0.4920	#Expl.:133/262	#Buy:133	#Sell:129	#Hold:0	#Stocks:4	PV:₩10,091,650	POS:3	NEG:1	Loss:  0.179791
+[Epoch 0018/1000]	Epsilon:0.4915	#Expl.:125/262	#Buy:125	#Sell:123	#Hold:14	#Stocks:2	PV:₩10,049,450	POS:3	NEG:1	Loss:  0.171925
+[Epoch 0019/1000]	Epsilon:0.4910	#Expl.:133/262	#Buy:125	#Sell:119	#Hold:18	#Stocks:6	PV:₩10,056,550	POS:3	NEG:1	Loss:  0.182165
+[Epoch 0020/1000]	Epsilon:0.4905	#Expl.:126/262	#Buy:121	#Sell:109	#Hold:32	#Stocks:12	PV:₩10,056,700	POS:3	NEG:1	Loss:  0.175550
+[Epoch 0021/1000]	Epsilon:0.4900	#Expl.:130/262	#Buy:125	#Sell:115	#Hold:22	#Stocks:10	PV:₩10,022,600	POS:3	NEG:1	Loss:  0.180953
+[Epoch 0022/1000]	Epsilon:0.4895	#Expl.:128/262	#Buy:117	#Sell:115	#Hold:30	#Stocks:2	PV:₩10,038,900	POS:3	NEG:1	Loss:  0.181765
+[Epoch 0023/1000]	Epsilon:0.4890	#Expl.:134/262	#Buy:136	#Sell:125	#Hold:1	#Stocks:11	PV:₩10,099,500	POS:3	NEG:1	Loss:  0.185536
+[Epoch 0024/1000]	Epsilon:0.4885	#Expl.:129/262	#Buy:117	#Sell:112	#Hold:33	#Stocks:5	PV:₩10,021,150	POS:3	NEG:1	Loss:  0.180592
+[Epoch 0025/1000]	Epsilon:0.4880	#Expl.:143/262	#Buy:129	#Sell:126	#Hold:7	#Stocks:3	PV:₩10,052,800	POS:2	NEG:2	Loss:  0.181843
+[Epoch 0026/1000]	Epsilon:0.4875	#Expl.:134/262	#Buy:133	#Sell:128	#Hold:1	#Stocks:5	PV:₩10,104,650	POS:3	NEG:1	Loss:  0.175658
+[Epoch 0027/1000]	Epsilon:0.4870	#Expl.:128/262	#Buy:127	#Sell:118	#Hold:17	#Stocks:9	PV:₩10,065,450	POS:4	NEG:0	Loss:  0.179671
+[Epoch 0028/1000]	Epsilon:0.4865	#Expl.:131/262	#Buy:135	#Sell:127	#Hold:0	#Stocks:8	PV:₩10,141,650	POS:3	NEG:1	Loss:  0.189343
+[Epoch 0029/1000]	Epsilon:0.4860	#Expl.:127/262	#Buy:147	#Sell:115	#Hold:0	#Stocks:32	PV:₩10,286,250	POS:3	NEG:1	Loss:  0.181390
+[Epoch 0030/1000]	Epsilon:0.4855	#Expl.:122/262	#Buy:148	#Sell:114	#Hold:0	#Stocks:34	PV:₩10,181,950	POS:2	NEG:2	Loss:  0.181653
+[Epoch 0031/1000]	Epsilon:0.4850	#Expl.:132/262	#Buy:126	#Sell:113	#Hold:23	#Stocks:13	PV:₩10,089,950	POS:3	NEG:1	Loss:  0.177652
+[Epoch 0032/1000]	Epsilon:0.4845	#Expl.:115/262	#Buy:130	#Sell:114	#Hold:18	#Stocks:16	PV:₩10,057,600	POS:3	NEG:1	Loss:  0.179945
+[Epoch 0033/1000]	Epsilon:0.4840	#Expl.:127/262	#Buy:136	#Sell:126	#Hold:0	#Stocks:10	PV:₩10,087,950	POS:3	NEG:1	Loss:  0.179310
+[Epoch 0034/1000]	Epsilon:0.4835	#Expl.:126/262	#Buy:119	#Sell:117	#Hold:26	#Stocks:2	PV:₩10,017,300	POS:3	NEG:1	Loss:  0.170277
+[Epoch 0035/1000]	Epsilon:0.4830	#Expl.:115/262	#Buy:133	#Sell:118	#Hold:11	#Stocks:15	PV:₩10,099,800	POS:3	NEG:1	Loss:  0.170252
+[Epoch 0036/1000]	Epsilon:0.4825	#Expl.:114/262	#Buy:132	#Sell:114	#Hold:16	#Stocks:18	PV:₩10,053,200	POS:3	NEG:1	Loss:  0.180448
+[Epoch 0037/1000]	Epsilon:0.4820	#Expl.:116/262	#Buy:136	#Sell:125	#Hold:1	#Stocks:11	PV:₩10,150,600	POS:4	NEG:0	Loss:  0.165660
+[Epoch 0038/1000]	Epsilon:0.4815	#Expl.:126/262	#Buy:133	#Sell:129	#Hold:0	#Stocks:4	PV:₩10,071,350	POS:2	NEG:2	Loss:  0.179156
+[Epoch 0039/1000]	Epsilon:0.4810	#Expl.:120/262	#Buy:127	#Sell:117	#Hold:18	#Stocks:10	PV:₩10,095,700	POS:3	NEG:1	Loss:  0.165389
+[Epoch 0040/1000]	Epsilon:0.4805	#Expl.:121/262	#Buy:132	#Sell:121	#Hold:9	#Stocks:11	PV:₩10,128,200	POS:4	NEG:0	Loss:  0.167463
+[Epoch 0041/1000]	Epsilon:0.4800	#Expl.:117/262	#Buy:131	#Sell:114	#Hold:17	#Stocks:17	PV:₩10,068,650	POS:3	NEG:1	Loss:  0.175963
+[Epoch 0042/1000]	Epsilon:0.4795	#Expl.:133/262	#Buy:125	#Sell:117	#Hold:20	#Stocks:8	PV:₩10,106,950	POS:4	NEG:0	Loss:  0.172281
+[Epoch 0043/1000]	Epsilon:0.4790	#Expl.:127/262	#Buy:111	#Sell:108	#Hold:43	#Stocks:3	PV:₩10,022,200	POS:2	NEG:2	Loss:  0.185528
+[Epoch 0044/1000]	Epsilon:0.4785	#Expl.:111/262	#Buy:122	#Sell:110	#Hold:30	#Stocks:12	PV:₩10,086,500	POS:3	NEG:1	Loss:  0.166873
+[Epoch 0045/1000]	Epsilon:0.4780	#Expl.:120/262	#Buy:132	#Sell:121	#Hold:9	#Stocks:11	PV:₩10,109,750	POS:3	NEG:1	Loss:  0.171453
+[Epoch 0046/1000]	Epsilon:0.4775	#Expl.:122/262	#Buy:119	#Sell:118	#Hold:25	#Stocks:1	PV:₩9,993,700	POS:3	NEG:1	Loss:  0.176477
+[Epoch 0047/1000]	Epsilon:0.4770	#Expl.:128/262	#Buy:123	#Sell:118	#Hold:21	#Stocks:5	PV:₩10,088,050	POS:3	NEG:1	Loss:  0.175254
+[Epoch 0048/1000]	Epsilon:0.4765	#Expl.:104/262	#Buy:137	#Sell:119	#Hold:6	#Stocks:18	PV:₩10,101,550	POS:3	NEG:1	Loss:  0.164176
+[Epoch 0049/1000]	Epsilon:0.4760	#Expl.:130/262	#Buy:116	#Sell:109	#Hold:37	#Stocks:7	PV:₩10,024,050	POS:2	NEG:2	Loss:  0.187952
+[Epoch 0050/1000]	Epsilon:0.4755	#Expl.:124/262	#Buy:133	#Sell:120	#Hold:9	#Stocks:13	PV:₩10,035,350	POS:3	NEG:1	Loss:  0.177992
+[Epoch 0051/1000]	Epsilon:0.4750	#Expl.:131/262	#Buy:135	#Sell:125	#Hold:2	#Stocks:10	PV:₩10,126,050	POS:4	NEG:0	Loss:  0.166957
+[Epoch 0052/1000]	Epsilon:0.4745	#Expl.:123/262	#Buy:132	#Sell:123	#Hold:7	#Stocks:9	PV:₩10,069,750	POS:2	NEG:2	Loss:  0.189091
+[Epoch 0053/1000]	Epsilon:0.4740	#Expl.:123/262	#Buy:124	#Sell:115	#Hold:23	#Stocks:9	PV:₩10,041,800	POS:3	NEG:1	Loss:  0.178973
+[Epoch 0054/1000]	Epsilon:0.4735	#Expl.:126/262	#Buy:135	#Sell:123	#Hold:4	#Stocks:12	PV:₩10,155,500	POS:4	NEG:0	Loss:  0.167597
+[Epoch 0055/1000]	Epsilon:0.4730	#Expl.:131/262	#Buy:127	#Sell:108	#Hold:27	#Stocks:19	PV:₩10,115,450	POS:3	NEG:1	Loss:  0.186309
+[Epoch 0056/1000]	Epsilon:0.4725	#Expl.:118/262	#Buy:119	#Sell:111	#Hold:32	#Stocks:8	PV:₩10,048,450	POS:3	NEG:1	Loss:  0.170630
+[Epoch 0057/1000]	Epsilon:0.4720	#Expl.:141/262	#Buy:125	#Sell:121	#Hold:16	#Stocks:4	PV:₩10,063,050	POS:3	NEG:1	Loss:  0.176575
+[Epoch 0058/1000]	Epsilon:0.4715	#Expl.:129/262	#Buy:123	#Sell:121	#Hold:18	#Stocks:2	PV:₩10,039,100	POS:2	NEG:2	Loss:  0.173334
+[Epoch 0059/1000]	Epsilon:0.4710	#Expl.:131/262	#Buy:134	#Sell:122	#Hold:6	#Stocks:12	PV:₩10,116,350	POS:3	NEG:1	Loss:  0.185021
+[Epoch 0060/1000]	Epsilon:0.4705	#Expl.:132/262	#Buy:131	#Sell:130	#Hold:1	#Stocks:1	PV:₩10,060,350	POS:2	NEG:2	Loss:  0.175393
+[Epoch 0061/1000]	Epsilon:0.4700	#Expl.:122/262	#Buy:129	#Sell:120	#Hold:13	#Stocks:9	PV:₩10,061,850	POS:2	NEG:2	Loss:  0.173625
+[Epoch 0062/1000]	Epsilon:0.4695	#Expl.:137/262	#Buy:131	#Sell:119	#Hold:12	#Stocks:12	PV:₩10,135,400	POS:3	NEG:1	Loss:  0.172182
+[Epoch 0063/1000]	Epsilon:0.4690	#Expl.:129/262	#Buy:130	#Sell:125	#Hold:7	#Stocks:5	PV:₩10,052,450	POS:3	NEG:1	Loss:  0.181711
+[Epoch 0064/1000]	Epsilon:0.4685	#Expl.:126/262	#Buy:131	#Sell:123	#Hold:8	#Stocks:8	PV:₩10,033,500	POS:2	NEG:2	Loss:  0.185838
+[Epoch 0065/1000]	Epsilon:0.4680	#Expl.:114/262	#Buy:131	#Sell:118	#Hold:13	#Stocks:13	PV:₩10,068,700	POS:3	NEG:1	Loss:  0.177306
+[Epoch 0066/1000]	Epsilon:0.4675	#Expl.:136/262	#Buy:129	#Sell:119	#Hold:14	#Stocks:10	PV:₩10,050,150	POS:3	NEG:1	Loss:  0.185680
+[Epoch 0067/1000]	Epsilon:0.4670	#Expl.:137/262	#Buy:141	#Sell:109	#Hold:12	#Stocks:32	PV:₩10,228,000	POS:3	NEG:1	Loss:  0.176954
+[Epoch 0068/1000]	Epsilon:0.4665	#Expl.:114/262	#Buy:125	#Sell:117	#Hold:20	#Stocks:8	PV:₩10,073,350	POS:3	NEG:1	Loss:  0.177351
+[Epoch 0069/1000]	Epsilon:0.4660	#Expl.:115/262	#Buy:135	#Sell:117	#Hold:10	#Stocks:18	PV:₩10,143,300	POS:3	NEG:1	Loss:  0.172402
+[Epoch 0070/1000]	Epsilon:0.4655	#Expl.:143/262	#Buy:129	#Sell:118	#Hold:15	#Stocks:11	PV:₩10,130,900	POS:4	NEG:0	Loss:  0.171361
+[Epoch 0071/1000]	Epsilon:0.4650	#Expl.:134/262	#Buy:126	#Sell:124	#Hold:12	#Stocks:2	PV:₩10,063,750	POS:3	NEG:1	Loss:  0.172668
+[Epoch 0072/1000]	Epsilon:0.4645	#Expl.:112/262	#Buy:130	#Sell:123	#Hold:9	#Stocks:7	PV:₩10,013,450	POS:2	NEG:2	Loss:  0.182613
+[Epoch 0073/1000]	Epsilon:0.4640	#Expl.:113/262	#Buy:126	#Sell:117	#Hold:19	#Stocks:9	PV:₩10,047,300	POS:3	NEG:1	Loss:  0.167659
+[Epoch 0074/1000]	Epsilon:0.4635	#Expl.:121/262	#Buy:133	#Sell:128	#Hold:1	#Stocks:5	PV:₩10,072,250	POS:3	NEG:1	Loss:  0.174683
+[Epoch 0075/1000]	Epsilon:0.4630	#Expl.:105/262	#Buy:133	#Sell:127	#Hold:2	#Stocks:6	PV:₩10,107,500	POS:3	NEG:1	Loss:  0.172007
+[Epoch 0076/1000]	Epsilon:0.4625	#Expl.:119/262	#Buy:132	#Sell:125	#Hold:5	#Stocks:7	PV:₩10,072,450	POS:2	NEG:2	Loss:  0.178454
+[Epoch 0077/1000]	Epsilon:0.4620	#Expl.:110/262	#Buy:131	#Sell:117	#Hold:14	#Stocks:14	PV:₩10,052,400	POS:3	NEG:1	Loss:  0.169492
+[Epoch 0078/1000]	Epsilon:0.4615	#Expl.:112/262	#Buy:129	#Sell:125	#Hold:8	#Stocks:4	PV:₩10,050,900	POS:3	NEG:1	Loss:  0.167701
+[Epoch 0079/1000]	Epsilon:0.4610	#Expl.:118/262	#Buy:133	#Sell:124	#Hold:5	#Stocks:9	PV:₩10,162,850	POS:3	NEG:1	Loss:  0.181015
+[Epoch 0080/1000]	Epsilon:0.4605	#Expl.:109/262	#Buy:145	#Sell:116	#Hold:1	#Stocks:29	PV:₩10,275,750	POS:3	NEG:1	Loss:  0.172636
+[Epoch 0081/1000]	Epsilon:0.4600	#Expl.:122/262	#Buy:124	#Sell:119	#Hold:19	#Stocks:5	PV:₩10,047,100	POS:3	NEG:1	Loss:  0.177746
+[Epoch 0082/1000]	Epsilon:0.4595	#Expl.:125/262	#Buy:128	#Sell:121	#Hold:13	#Stocks:7	PV:₩10,084,550	POS:3	NEG:1	Loss:  0.175601
+[Epoch 0083/1000]	Epsilon:0.4590	#Expl.:125/262	#Buy:128	#Sell:127	#Hold:7	#Stocks:1	PV:₩10,064,850	POS:2	NEG:2	Loss:  0.182143
+[Epoch 0084/1000]	Epsilon:0.4585	#Expl.:128/262	#Buy:130	#Sell:122	#Hold:10	#Stocks:8	PV:₩10,092,850	POS:3	NEG:1	Loss:  0.181511
+[Epoch 0085/1000]	Epsilon:0.4580	#Expl.:112/262	#Buy:113	#Sell:112	#Hold:37	#Stocks:1	PV:₩10,025,250	POS:3	NEG:1	Loss:  0.171569
+[Epoch 0086/1000]	Epsilon:0.4575	#Expl.:129/262	#Buy:126	#Sell:111	#Hold:25	#Stocks:15	PV:₩10,102,200	POS:3	NEG:1	Loss:  0.182958
+[Epoch 0087/1000]	Epsilon:0.4570	#Expl.:121/262	#Buy:128	#Sell:120	#Hold:14	#Stocks:8	PV:₩10,056,650	POS:3	NEG:1	Loss:  0.170144
+[Epoch 0088/1000]	Epsilon:0.4565	#Expl.:120/262	#Buy:140	#Sell:122	#Hold:0	#Stocks:18	PV:₩10,162,550	POS:3	NEG:1	Loss:  0.167516
+[Epoch 0089/1000]	Epsilon:0.4560	#Expl.:123/262	#Buy:127	#Sell:123	#Hold:12	#Stocks:4	PV:₩10,024,350	POS:3	NEG:1	Loss:  0.165062
+[Epoch 0090/1000]	Epsilon:0.4555	#Expl.:139/262	#Buy:138	#Sell:124	#Hold:0	#Stocks:14	PV:₩10,228,950	POS:3	NEG:1	Loss:  0.166954
+[Epoch 0091/1000]	Epsilon:0.4550	#Expl.:122/262	#Buy:128	#Sell:127	#Hold:7	#Stocks:1	PV:₩10,035,750	POS:2	NEG:2	Loss:  0.186214
+[Epoch 0092/1000]	Epsilon:0.4545	#Expl.:120/262	#Buy:134	#Sell:116	#Hold:12	#Stocks:18	PV:₩10,144,400	POS:4	NEG:0	Loss:  0.168257
+[Epoch 0093/1000]	Epsilon:0.4540	#Expl.:119/262	#Buy:129	#Sell:123	#Hold:10	#Stocks:6	PV:₩10,081,000	POS:4	NEG:0	Loss:  0.160354
+[Epoch 0094/1000]	Epsilon:0.4535	#Expl.:131/262	#Buy:133	#Sell:118	#Hold:11	#Stocks:15	PV:₩10,081,650	POS:3	NEG:1	Loss:  0.178393
+[Epoch 0095/1000]	Epsilon:0.4530	#Expl.:118/262	#Buy:116	#Sell:114	#Hold:32	#Stocks:2	PV:₩9,999,700	POS:3	NEG:1	Loss:  0.171778
+[Epoch 0096/1000]	Epsilon:0.4525	#Expl.:122/262	#Buy:124	#Sell:120	#Hold:18	#Stocks:4	PV:₩10,012,250	POS:3	NEG:1	Loss:  0.169614
+[Epoch 0097/1000]	Epsilon:0.4520	#Expl.:115/262	#Buy:121	#Sell:117	#Hold:24	#Stocks:4	PV:₩10,052,850	POS:3	NEG:1	Loss:  0.165925
+[Epoch 0098/1000]	Epsilon:0.4515	#Expl.:119/262	#Buy:128	#Sell:119	#Hold:15	#Stocks:9	PV:₩10,054,050	POS:3	NEG:1	Loss:  0.175516
+[Epoch 0099/1000]	Epsilon:0.4510	#Expl.:111/262	#Buy:127	#Sell:119	#Hold:16	#Stocks:8	PV:₩10,101,550	POS:3	NEG:1	Loss:  0.167150
+[Epoch 0100/1000]	Epsilon:0.4505	#Expl.:119/262	#Buy:124	#Sell:122	#Hold:16	#Stocks:2	PV:₩10,100,800	POS:3	NEG:1	Loss:  0.168491
+[Epoch 0101/1000]	Epsilon:0.4499	#Expl.:105/262	#Buy:123	#Sell:122	#Hold:17	#Stocks:1	PV:₩10,052,850	POS:2	NEG:2	Loss:  0.197746
+[Epoch 0102/1000]	Epsilon:0.4494	#Expl.:113/262	#Buy:125	#Sell:120	#Hold:17	#Stocks:5	PV:₩10,046,000	POS:3	NEG:1	Loss:  0.172957
+[Epoch 0103/1000]	Epsilon:0.4489	#Expl.:124/262	#Buy:127	#Sell:118	#Hold:17	#Stocks:9	PV:₩10,048,400	POS:3	NEG:1	Loss:  0.177335
+[Epoch 0104/1000]	Epsilon:0.4484	#Expl.:109/262	#Buy:117	#Sell:108	#Hold:37	#Stocks:9	PV:₩10,027,400	POS:3	NEG:1	Loss:  0.165134
+[Epoch 0105/1000]	Epsilon:0.4479	#Expl.:117/262	#Buy:126	#Sell:114	#Hold:22	#Stocks:12	PV:₩10,064,600	POS:3	NEG:1	Loss:  0.168570
+[Epoch 0106/1000]	Epsilon:0.4474	#Expl.:125/262	#Buy:119	#Sell:113	#Hold:30	#Stocks:6	PV:₩10,047,150	POS:2	NEG:2	Loss:  0.173359
+[Epoch 0107/1000]	Epsilon:0.4469	#Expl.:111/262	#Buy:133	#Sell:114	#Hold:15	#Stocks:19	PV:₩10,094,550	POS:3	NEG:1	Loss:  0.161915
+[Epoch 0108/1000]	Epsilon:0.4464	#Expl.:122/262	#Buy:129	#Sell:116	#Hold:17	#Stocks:13	PV:₩10,048,700	POS:2	NEG:2	Loss:  0.184439
+[Epoch 0109/1000]	Epsilon:0.4459	#Expl.:112/262	#Buy:129	#Sell:112	#Hold:21	#Stocks:17	PV:₩10,094,150	POS:3	NEG:1	Loss:  0.166427
+[Epoch 0110/1000]	Epsilon:0.4454	#Expl.:115/262	#Buy:114	#Sell:109	#Hold:39	#Stocks:5	PV:₩10,013,600	POS:3	NEG:1	Loss:  0.174567
+[Epoch 0111/1000]	Epsilon:0.4449	#Expl.:130/262	#Buy:120	#Sell:117	#Hold:25	#Stocks:3	PV:₩10,008,900	POS:3	NEG:1	Loss:  0.172430
+[Epoch 0112/1000]	Epsilon:0.4444	#Expl.:110/262	#Buy:125	#Sell:112	#Hold:25	#Stocks:13	PV:₩10,044,500	POS:2	NEG:2	Loss:  0.171444
+[Epoch 0113/1000]	Epsilon:0.4439	#Expl.:110/262	#Buy:130	#Sell:123	#Hold:9	#Stocks:7	PV:₩10,100,850	POS:3	NEG:1	Loss:  0.166349
+[Epoch 0114/1000]	Epsilon:0.4434	#Expl.:122/262	#Buy:121	#Sell:118	#Hold:23	#Stocks:3	PV:₩10,084,800	POS:3	NEG:1	Loss:  0.162095
+[Epoch 0115/1000]	Epsilon:0.4429	#Expl.:114/262	#Buy:142	#Sell:119	#Hold:1	#Stocks:23	PV:₩10,182,400	POS:3	NEG:1	Loss:  0.170921
+[Epoch 0116/1000]	Epsilon:0.4424	#Expl.:107/262	#Buy:131	#Sell:118	#Hold:13	#Stocks:13	PV:₩9,997,650	POS:3	NEG:1	Loss:  0.179651
+[Epoch 0117/1000]	Epsilon:0.4419	#Expl.:123/262	#Buy:126	#Sell:116	#Hold:20	#Stocks:10	PV:₩10,112,900	POS:4	NEG:0	Loss:  0.162402
+[Epoch 0118/1000]	Epsilon:0.4414	#Expl.:109/262	#Buy:125	#Sell:118	#Hold:19	#Stocks:7	PV:₩10,109,500	POS:4	NEG:0	Loss:  0.159965
+[Epoch 0119/1000]	Epsilon:0.4409	#Expl.:98/262	#Buy:128	#Sell:113	#Hold:21	#Stocks:15	PV:₩10,097,200	POS:3	NEG:1	Loss:  0.178040
+[Epoch 0120/1000]	Epsilon:0.4404	#Expl.:109/262	#Buy:122	#Sell:116	#Hold:24	#Stocks:6	PV:₩10,089,700	POS:4	NEG:0	Loss:  0.156360
+[Epoch 0121/1000]	Epsilon:0.4399	#Expl.:120/262	#Buy:132	#Sell:108	#Hold:22	#Stocks:24	PV:₩10,121,200	POS:3	NEG:1	Loss:  0.181426
+[Epoch 0122/1000]	Epsilon:0.4394	#Expl.:108/262	#Buy:140	#Sell:120	#Hold:2	#Stocks:20	PV:₩10,164,350	POS:3	NEG:1	Loss:  0.171469
+[Epoch 0123/1000]	Epsilon:0.4389	#Expl.:110/262	#Buy:118	#Sell:107	#Hold:37	#Stocks:11	PV:₩10,053,300	POS:3	NEG:1	Loss:  0.173580
+[Epoch 0124/1000]	Epsilon:0.4384	#Expl.:114/262	#Buy:131	#Sell:123	#Hold:8	#Stocks:8	PV:₩10,045,250	POS:3	NEG:1	Loss:  0.170518
+[Epoch 0125/1000]	Epsilon:0.4379	#Expl.:113/262	#Buy:128	#Sell:124	#Hold:10	#Stocks:4	PV:₩10,039,300	POS:3	NEG:1	Loss:  0.169605
+[Epoch 0126/1000]	Epsilon:0.4374	#Expl.:125/262	#Buy:127	#Sell:117	#Hold:18	#Stocks:10	PV:₩10,088,700	POS:4	NEG:0	Loss:  0.163846
+[Epoch 0127/1000]	Epsilon:0.4369	#Expl.:107/262	#Buy:123	#Sell:120	#Hold:19	#Stocks:3	PV:₩10,050,250	POS:3	NEG:1	Loss:  0.178015
+[Epoch 0128/1000]	Epsilon:0.4364	#Expl.:101/262	#Buy:123	#Sell:116	#Hold:23	#Stocks:7	PV:₩10,025,450	POS:3	NEG:1	Loss:  0.165279
+[Epoch 0129/1000]	Epsilon:0.4359	#Expl.:111/262	#Buy:114	#Sell:108	#Hold:40	#Stocks:6	PV:₩10,043,550	POS:3	NEG:1	Loss:  0.162336
+[Epoch 0130/1000]	Epsilon:0.4354	#Expl.:114/262	#Buy:133	#Sell:118	#Hold:11	#Stocks:15	PV:₩10,169,600	POS:4	NEG:0	Loss:  0.166274
+[Epoch 0131/1000]	Epsilon:0.4349	#Expl.:112/262	#Buy:124	#Sell:109	#Hold:29	#Stocks:15	PV:₩10,055,200	POS:2	NEG:2	Loss:  0.180290
+[Epoch 0132/1000]	Epsilon:0.4344	#Expl.:116/262	#Buy:126	#Sell:122	#Hold:14	#Stocks:4	PV:₩10,065,100	POS:2	NEG:2	Loss:  0.183987
+[Epoch 0133/1000]	Epsilon:0.4339	#Expl.:122/262	#Buy:124	#Sell:116	#Hold:22	#Stocks:8	PV:₩10,074,100	POS:3	NEG:1	Loss:  0.177792
+[Epoch 0134/1000]	Epsilon:0.4334	#Expl.:113/262	#Buy:128	#Sell:121	#Hold:13	#Stocks:7	PV:₩10,132,600	POS:4	NEG:0	Loss:  0.165705
+[Epoch 0135/1000]	Epsilon:0.4329	#Expl.:113/262	#Buy:137	#Sell:125	#Hold:0	#Stocks:12	PV:₩10,088,350	POS:3	NEG:1	Loss:  0.172379
+[Epoch 0136/1000]	Epsilon:0.4324	#Expl.:111/262	#Buy:130	#Sell:123	#Hold:9	#Stocks:7	PV:₩10,052,050	POS:3	NEG:1	Loss:  0.167576
+[Epoch 0137/1000]	Epsilon:0.4319	#Expl.:122/262	#Buy:126	#Sell:110	#Hold:26	#Stocks:16	PV:₩10,094,900	POS:3	NEG:1	Loss:  0.176962
+[Epoch 0138/1000]	Epsilon:0.4314	#Expl.:123/262	#Buy:125	#Sell:119	#Hold:18	#Stocks:6	PV:₩10,082,350	POS:3	NEG:1	Loss:  0.175108
+[Epoch 0139/1000]	Epsilon:0.4309	#Expl.:103/262	#Buy:125	#Sell:115	#Hold:22	#Stocks:10	PV:₩10,054,200	POS:3	NEG:1	Loss:  0.172360
+[Epoch 0140/1000]	Epsilon:0.4304	#Expl.:110/262	#Buy:141	#Sell:114	#Hold:7	#Stocks:27	PV:₩10,241,500	POS:4	NEG:0	Loss:  0.157246
+[Epoch 0141/1000]	Epsilon:0.4299	#Expl.:118/262	#Buy:124	#Sell:117	#Hold:21	#Stocks:7	PV:₩10,024,250	POS:3	NEG:1	Loss:  0.172750
+[Epoch 0142/1000]	Epsilon:0.4294	#Expl.:103/262	#Buy:118	#Sell:103	#Hold:41	#Stocks:15	PV:₩10,078,800	POS:3	NEG:1	Loss:  0.176890
+[Epoch 0143/1000]	Epsilon:0.4289	#Expl.:118/262	#Buy:118	#Sell:111	#Hold:33	#Stocks:7	PV:₩10,056,550	POS:4	NEG:0	Loss:  0.159401
+[Epoch 0144/1000]	Epsilon:0.4284	#Expl.:110/262	#Buy:119	#Sell:117	#Hold:26	#Stocks:2	PV:₩10,055,850	POS:3	NEG:1	Loss:  0.165619
+[Epoch 0145/1000]	Epsilon:0.4279	#Expl.:111/262	#Buy:126	#Sell:112	#Hold:24	#Stocks:14	PV:₩10,074,000	POS:2	NEG:2	Loss:  0.182322
+[Epoch 0146/1000]	Epsilon:0.4274	#Expl.:122/262	#Buy:128	#Sell:117	#Hold:17	#Stocks:11	PV:₩10,053,200	POS:3	NEG:1	Loss:  0.170309
+[Epoch 0147/1000]	Epsilon:0.4269	#Expl.:109/262	#Buy:136	#Sell:123	#Hold:3	#Stocks:13	PV:₩10,159,650	POS:4	NEG:0	Loss:  0.158995
+[Epoch 0148/1000]	Epsilon:0.4264	#Expl.:128/262	#Buy:122	#Sell:119	#Hold:21	#Stocks:3	PV:₩10,071,750	POS:4	NEG:0	Loss:  0.163187
+[Epoch 0149/1000]	Epsilon:0.4259	#Expl.:104/262	#Buy:136	#Sell:125	#Hold:1	#Stocks:11	PV:₩10,034,400	POS:3	NEG:1	Loss:  0.168801
+[Epoch 0150/1000]	Epsilon:0.4254	#Expl.:106/262	#Buy:121	#Sell:119	#Hold:22	#Stocks:2	PV:₩10,046,900	POS:3	NEG:1	Loss:  0.171618
+[Epoch 0151/1000]	Epsilon:0.4249	#Expl.:110/262	#Buy:123	#Sell:113	#Hold:26	#Stocks:10	PV:₩10,093,000	POS:3	NEG:1	Loss:  0.155357
+[Epoch 0152/1000]	Epsilon:0.4244	#Expl.:124/262	#Buy:119	#Sell:106	#Hold:37	#Stocks:13	PV:₩10,033,250	POS:3	NEG:1	Loss:  0.170594
+[Epoch 0153/1000]	Epsilon:0.4239	#Expl.:98/262	#Buy:129	#Sell:117	#Hold:16	#Stocks:12	PV:₩10,108,000	POS:4	NEG:0	Loss:  0.158893
+[Epoch 0154/1000]	Epsilon:0.4234	#Expl.:101/262	#Buy:134	#Sell:125	#Hold:3	#Stocks:9	PV:₩10,032,250	POS:3	NEG:1	Loss:  0.170153
+[Epoch 0155/1000]	Epsilon:0.4229	#Expl.:91/262	#Buy:129	#Sell:120	#Hold:13	#Stocks:9	PV:₩10,091,200	POS:3	NEG:1	Loss:  0.168801
+[Epoch 0156/1000]	Epsilon:0.4224	#Expl.:103/262	#Buy:130	#Sell:117	#Hold:15	#Stocks:13	PV:₩10,064,250	POS:3	NEG:1	Loss:  0.163920
+[Epoch 0157/1000]	Epsilon:0.4219	#Expl.:118/262	#Buy:129	#Sell:116	#Hold:17	#Stocks:13	PV:₩10,108,850	POS:4	NEG:0	Loss:  0.161559
+[Epoch 0158/1000]	Epsilon:0.4214	#Expl.:112/262	#Buy:126	#Sell:107	#Hold:29	#Stocks:19	PV:₩10,048,500	POS:3	NEG:1	Loss:  0.173810
+[Epoch 0159/1000]	Epsilon:0.4209	#Expl.:117/262	#Buy:128	#Sell:123	#Hold:11	#Stocks:5	PV:₩10,106,450	POS:4	NEG:0	Loss:  0.160221
+[Epoch 0160/1000]	Epsilon:0.4204	#Expl.:108/262	#Buy:106	#Sell:99	#Hold:57	#Stocks:7	PV:₩10,051,250	POS:3	NEG:1	Loss:  0.171150
+[Epoch 0161/1000]	Epsilon:0.4199	#Expl.:117/262	#Buy:128	#Sell:124	#Hold:10	#Stocks:4	PV:₩10,054,000	POS:2	NEG:2	Loss:  0.186129
+[Epoch 0162/1000]	Epsilon:0.4194	#Expl.:97/262	#Buy:135	#Sell:122	#Hold:5	#Stocks:13	PV:₩10,065,750	POS:3	NEG:1	Loss:  0.168077
+[Epoch 0163/1000]	Epsilon:0.4189	#Expl.:120/262	#Buy:130	#Sell:125	#Hold:7	#Stocks:5	PV:₩10,065,450	POS:2	NEG:2	Loss:  0.176897
+[Epoch 0164/1000]	Epsilon:0.4184	#Expl.:109/262	#Buy:132	#Sell:115	#Hold:15	#Stocks:17	PV:₩10,127,550	POS:3	NEG:1	Loss:  0.159165
+[Epoch 0165/1000]	Epsilon:0.4179	#Expl.:116/262	#Buy:133	#Sell:115	#Hold:14	#Stocks:18	PV:₩10,106,250	POS:2	NEG:2	Loss:  0.182774
+[Epoch 0166/1000]	Epsilon:0.4174	#Expl.:98/262	#Buy:128	#Sell:115	#Hold:19	#Stocks:13	PV:₩10,059,350	POS:3	NEG:1	Loss:  0.171274
+[Epoch 0167/1000]	Epsilon:0.4169	#Expl.:107/262	#Buy:122	#Sell:110	#Hold:30	#Stocks:12	PV:₩10,076,450	POS:3	NEG:1	Loss:  0.170380
+[Epoch 0168/1000]	Epsilon:0.4164	#Expl.:94/262	#Buy:125	#Sell:116	#Hold:21	#Stocks:9	PV:₩10,022,550	POS:3	NEG:1	Loss:  0.161093
+[Epoch 0169/1000]	Epsilon:0.4159	#Expl.:110/262	#Buy:129	#Sell:122	#Hold:11	#Stocks:7	PV:₩10,079,500	POS:3	NEG:1	Loss:  0.167611
+[Epoch 0170/1000]	Epsilon:0.4154	#Expl.:102/262	#Buy:134	#Sell:114	#Hold:14	#Stocks:20	PV:₩10,110,650	POS:3	NEG:1	Loss:  0.167115
+[Epoch 0171/1000]	Epsilon:0.4149	#Expl.:109/262	#Buy:131	#Sell:118	#Hold:13	#Stocks:13	PV:₩10,046,500	POS:3	NEG:1	Loss:  0.171385
+[Epoch 0172/1000]	Epsilon:0.4144	#Expl.:126/262	#Buy:133	#Sell:125	#Hold:4	#Stocks:8	PV:₩10,038,400	POS:2	NEG:2	Loss:  0.177919
+[Epoch 0173/1000]	Epsilon:0.4139	#Expl.:109/262	#Buy:132	#Sell:129	#Hold:1	#Stocks:3	PV:₩10,121,550	POS:3	NEG:1	Loss:  0.172954
+[Epoch 0174/1000]	Epsilon:0.4134	#Expl.:103/262	#Buy:127	#Sell:117	#Hold:18	#Stocks:10	PV:₩10,027,300	POS:3	NEG:1	Loss:  0.159133
+[Epoch 0175/1000]	Epsilon:0.4129	#Expl.:121/262	#Buy:123	#Sell:110	#Hold:29	#Stocks:13	PV:₩10,005,150	POS:3	NEG:1	Loss:  0.165676
+[Epoch 0176/1000]	Epsilon:0.4124	#Expl.:102/262	#Buy:126	#Sell:119	#Hold:17	#Stocks:7	PV:₩10,063,750	POS:2	NEG:2	Loss:  0.181368
+[Epoch 0177/1000]	Epsilon:0.4119	#Expl.:99/262	#Buy:132	#Sell:119	#Hold:11	#Stocks:13	PV:₩9,983,450	POS:3	NEG:1	Loss:  0.175941
+[Epoch 0178/1000]	Epsilon:0.4114	#Expl.:112/262	#Buy:131	#Sell:122	#Hold:9	#Stocks:9	PV:₩10,034,100	POS:2	NEG:2	Loss:  0.183325
+[Epoch 0179/1000]	Epsilon:0.4109	#Expl.:109/262	#Buy:117	#Sell:117	#Hold:28	#Stocks:0	PV:₩9,982,500	POS:2	NEG:2	Loss:  0.174065
+[Epoch 0180/1000]	Epsilon:0.4104	#Expl.:117/262	#Buy:125	#Sell:112	#Hold:25	#Stocks:13	PV:₩10,034,300	POS:2	NEG:2	Loss:  0.185428
+[Epoch 0181/1000]	Epsilon:0.4099	#Expl.:106/262	#Buy:127	#Sell:122	#Hold:13	#Stocks:5	PV:₩10,000,200	POS:2	NEG:2	Loss:  0.184317
+[Epoch 0182/1000]	Epsilon:0.4094	#Expl.:116/262	#Buy:127	#Sell:118	#Hold:17	#Stocks:9	PV:₩10,103,650	POS:2	NEG:2	Loss:  0.179049
+[Epoch 0183/1000]	Epsilon:0.4089	#Expl.:104/262	#Buy:110	#Sell:99	#Hold:53	#Stocks:11	PV:₩10,034,450	POS:3	NEG:1	Loss:  0.163756
+[Epoch 0184/1000]	Epsilon:0.4084	#Expl.:96/262	#Buy:122	#Sell:115	#Hold:25	#Stocks:7	PV:₩10,068,600	POS:3	NEG:1	Loss:  0.174911
+[Epoch 0185/1000]	Epsilon:0.4079	#Expl.:119/262	#Buy:129	#Sell:120	#Hold:13	#Stocks:9	PV:₩10,033,600	POS:3	NEG:1	Loss:  0.170328
+[Epoch 0186/1000]	Epsilon:0.4074	#Expl.:107/262	#Buy:132	#Sell:119	#Hold:11	#Stocks:13	PV:₩10,106,100	POS:3	NEG:1	Loss:  0.170483
+[Epoch 0187/1000]	Epsilon:0.4069	#Expl.:107/262	#Buy:133	#Sell:121	#Hold:8	#Stocks:12	PV:₩10,093,650	POS:3	NEG:1	Loss:  0.173013
+[Epoch 0188/1000]	Epsilon:0.4064	#Expl.:102/262	#Buy:135	#Sell:115	#Hold:12	#Stocks:20	PV:₩10,099,500	POS:3	NEG:1	Loss:  0.161270
+[Epoch 0189/1000]	Epsilon:0.4059	#Expl.:107/262	#Buy:121	#Sell:118	#Hold:23	#Stocks:3	PV:₩10,049,250	POS:3	NEG:1	Loss:  0.169092
+[Epoch 0190/1000]	Epsilon:0.4054	#Expl.:106/262	#Buy:132	#Sell:109	#Hold:21	#Stocks:23	PV:₩10,109,900	POS:3	NEG:1	Loss:  0.172327
+[Epoch 0191/1000]	Epsilon:0.4049	#Expl.:104/262	#Buy:122	#Sell:115	#Hold:25	#Stocks:7	PV:₩10,075,650	POS:4	NEG:0	Loss:  0.148892
+[Epoch 0192/1000]	Epsilon:0.4044	#Expl.:115/262	#Buy:132	#Sell:113	#Hold:17	#Stocks:19	PV:₩10,151,750	POS:4	NEG:0	Loss:  0.158282
+[Epoch 0193/1000]	Epsilon:0.4039	#Expl.:96/262	#Buy:135	#Sell:116	#Hold:11	#Stocks:19	PV:₩10,089,100	POS:2	NEG:2	Loss:  0.187416
+[Epoch 0194/1000]	Epsilon:0.4034	#Expl.:107/262	#Buy:122	#Sell:115	#Hold:25	#Stocks:7	PV:₩10,037,750	POS:3	NEG:1	Loss:  0.165724
+[Epoch 0195/1000]	Epsilon:0.4029	#Expl.:109/262	#Buy:129	#Sell:121	#Hold:12	#Stocks:8	PV:₩10,107,100	POS:3	NEG:1	Loss:  0.178325
+[Epoch 0196/1000]	Epsilon:0.4024	#Expl.:112/262	#Buy:118	#Sell:111	#Hold:33	#Stocks:7	PV:₩10,056,500	POS:4	NEG:0	Loss:  0.163471
+[Epoch 0197/1000]	Epsilon:0.4019	#Expl.:107/262	#Buy:126	#Sell:109	#Hold:27	#Stocks:17	PV:₩10,077,000	POS:3	NEG:1	Loss:  0.172333
+[Epoch 0198/1000]	Epsilon:0.4014	#Expl.:108/262	#Buy:133	#Sell:116	#Hold:13	#Stocks:17	PV:₩10,112,150	POS:3	NEG:1	Loss:  0.167081
+[Epoch 0199/1000]	Epsilon:0.4009	#Expl.:94/262	#Buy:126	#Sell:112	#Hold:24	#Stocks:14	PV:₩10,072,350	POS:2	NEG:2	Loss:  0.179680
+[Epoch 0200/1000]	Epsilon:0.4004	#Expl.:101/262	#Buy:127	#Sell:121	#Hold:14	#Stocks:6	PV:₩10,050,750	POS:3	NEG:1	Loss:  0.161306
+[Epoch 0201/1000]	Epsilon:0.3999	#Expl.:109/262	#Buy:133	#Sell:124	#Hold:5	#Stocks:9	PV:₩10,065,350	POS:3	NEG:1	Loss:  0.164074
+[Epoch 0202/1000]	Epsilon:0.3994	#Expl.:91/262	#Buy:148	#Sell:114	#Hold:0	#Stocks:34	PV:₩10,259,850	POS:3	NEG:1	Loss:  0.160028
+[Epoch 0203/1000]	Epsilon:0.3989	#Expl.:109/262	#Buy:133	#Sell:125	#Hold:4	#Stocks:8	PV:₩10,055,550	POS:3	NEG:1	Loss:  0.167909
+[Epoch 0204/1000]	Epsilon:0.3984	#Expl.:99/262	#Buy:137	#Sell:118	#Hold:7	#Stocks:19	PV:₩10,073,900	POS:3	NEG:1	Loss:  0.167219
+[Epoch 0205/1000]	Epsilon:0.3979	#Expl.:100/262	#Buy:127	#Sell:118	#Hold:17	#Stocks:9	PV:₩10,028,350	POS:3	NEG:1	Loss:  0.162671
+[Epoch 0206/1000]	Epsilon:0.3974	#Expl.:104/262	#Buy:121	#Sell:117	#Hold:24	#Stocks:4	PV:₩9,987,750	POS:2	NEG:2	Loss:  0.180839
+[Epoch 0207/1000]	Epsilon:0.3969	#Expl.:99/262	#Buy:128	#Sell:119	#Hold:15	#Stocks:9	PV:₩10,081,500	POS:3	NEG:1	Loss:  0.171456
+[Epoch 0208/1000]	Epsilon:0.3964	#Expl.:116/262	#Buy:134	#Sell:111	#Hold:17	#Stocks:23	PV:₩10,188,900	POS:3	NEG:1	Loss:  0.173095
+[Epoch 0209/1000]	Epsilon:0.3959	#Expl.:110/262	#Buy:119	#Sell:116	#Hold:27	#Stocks:3	PV:₩10,039,950	POS:3	NEG:1	Loss:  0.177443
+[Epoch 0210/1000]	Epsilon:0.3954	#Expl.:111/262	#Buy:135	#Sell:127	#Hold:0	#Stocks:8	PV:₩10,062,250	POS:1	NEG:3	Loss:  0.191535
+[Epoch 0211/1000]	Epsilon:0.3949	#Expl.:101/262	#Buy:135	#Sell:120	#Hold:7	#Stocks:15	PV:₩10,079,700	POS:3	NEG:1	Loss:  0.168969
+[Epoch 0212/1000]	Epsilon:0.3944	#Expl.:91/262	#Buy:135	#Sell:124	#Hold:3	#Stocks:11	PV:₩10,058,350	POS:3	NEG:1	Loss:  0.159836
+[Epoch 0213/1000]	Epsilon:0.3939	#Expl.:106/262	#Buy:123	#Sell:119	#Hold:20	#Stocks:4	PV:₩9,982,450	POS:2	NEG:2	Loss:  0.185160
+[Epoch 0214/1000]	Epsilon:0.3934	#Expl.:100/262	#Buy:127	#Sell:122	#Hold:13	#Stocks:5	PV:₩10,043,600	POS:2	NEG:2	Loss:  0.173624
+[Epoch 0215/1000]	Epsilon:0.3929	#Expl.:113/262	#Buy:129	#Sell:122	#Hold:11	#Stocks:7	PV:₩10,075,400	POS:3	NEG:1	Loss:  0.164177
+[Epoch 0216/1000]	Epsilon:0.3924	#Expl.:99/262	#Buy:137	#Sell:119	#Hold:6	#Stocks:18	PV:₩10,188,650	POS:3	NEG:1	Loss:  0.164436
+[Epoch 0217/1000]	Epsilon:0.3919	#Expl.:94/262	#Buy:135	#Sell:119	#Hold:8	#Stocks:16	PV:₩10,052,450	POS:3	NEG:1	Loss:  0.178400
+[Epoch 0218/1000]	Epsilon:0.3914	#Expl.:103/262	#Buy:133	#Sell:117	#Hold:12	#Stocks:16	PV:₩10,096,800	POS:3	NEG:1	Loss:  0.172909
+[Epoch 0219/1000]	Epsilon:0.3909	#Expl.:89/262	#Buy:131	#Sell:112	#Hold:19	#Stocks:19	PV:₩10,079,000	POS:3	NEG:1	Loss:  0.158830
+[Epoch 0220/1000]	Epsilon:0.3904	#Expl.:103/262	#Buy:119	#Sell:112	#Hold:31	#Stocks:7	PV:₩10,025,450	POS:2	NEG:2	Loss:  0.170624
+[Epoch 0221/1000]	Epsilon:0.3899	#Expl.:108/262	#Buy:130	#Sell:113	#Hold:19	#Stocks:17	PV:₩10,103,150	POS:3	NEG:1	Loss:  0.168293
+[Epoch 0222/1000]	Epsilon:0.3894	#Expl.:107/262	#Buy:128	#Sell:126	#Hold:8	#Stocks:2	PV:₩10,025,550	POS:3	NEG:1	Loss:  0.168338
+[Epoch 0223/1000]	Epsilon:0.3889	#Expl.:106/262	#Buy:150	#Sell:112	#Hold:0	#Stocks:38	PV:₩10,321,450	POS:3	NEG:1	Loss:  0.167778
+[Epoch 0224/1000]	Epsilon:0.3884	#Expl.:103/262	#Buy:127	#Sell:120	#Hold:15	#Stocks:7	PV:₩10,052,850	POS:3	NEG:1	Loss:  0.168306
+[Epoch 0225/1000]	Epsilon:0.3879	#Expl.:101/262	#Buy:124	#Sell:123	#Hold:15	#Stocks:1	PV:₩10,070,650	POS:3	NEG:1	Loss:  0.165802
+[Epoch 0226/1000]	Epsilon:0.3874	#Expl.:100/262	#Buy:131	#Sell:120	#Hold:11	#Stocks:11	PV:₩10,058,250	POS:3	NEG:1	Loss:  0.161210
+[Epoch 0227/1000]	Epsilon:0.3869	#Expl.:93/262	#Buy:124	#Sell:107	#Hold:31	#Stocks:17	PV:₩10,093,150	POS:3	NEG:1	Loss:  0.156522
+[Epoch 0228/1000]	Epsilon:0.3864	#Expl.:97/262	#Buy:131	#Sell:116	#Hold:15	#Stocks:15	PV:₩10,075,950	POS:3	NEG:1	Loss:  0.165556
+[Epoch 0229/1000]	Epsilon:0.3859	#Expl.:97/262	#Buy:130	#Sell:115	#Hold:17	#Stocks:15	PV:₩10,072,500	POS:3	NEG:1	Loss:  0.169164
+[Epoch 0230/1000]	Epsilon:0.3854	#Expl.:90/262	#Buy:135	#Sell:122	#Hold:5	#Stocks:13	PV:₩10,034,550	POS:3	NEG:1	Loss:  0.169302
+[Epoch 0231/1000]	Epsilon:0.3849	#Expl.:108/262	#Buy:132	#Sell:118	#Hold:12	#Stocks:14	PV:₩10,094,550	POS:4	NEG:0	Loss:  0.151349
+[Epoch 0232/1000]	Epsilon:0.3844	#Expl.:100/262	#Buy:129	#Sell:122	#Hold:11	#Stocks:7	PV:₩10,057,900	POS:3	NEG:1	Loss:  0.164608
+[Epoch 0233/1000]	Epsilon:0.3839	#Expl.:96/262	#Buy:120	#Sell:117	#Hold:25	#Stocks:3	PV:₩10,042,700	POS:3	NEG:1	Loss:  0.172917
+[Epoch 0234/1000]	Epsilon:0.3834	#Expl.:95/262	#Buy:125	#Sell:108	#Hold:29	#Stocks:17	PV:₩10,065,850	POS:3	NEG:1	Loss:  0.163518
+[Epoch 0235/1000]	Epsilon:0.3829	#Expl.:113/262	#Buy:122	#Sell:113	#Hold:27	#Stocks:9	PV:₩9,998,200	POS:2	NEG:2	Loss:  0.178744
+[Epoch 0236/1000]	Epsilon:0.3824	#Expl.:112/262	#Buy:131	#Sell:120	#Hold:11	#Stocks:11	PV:₩10,074,650	POS:2	NEG:2	Loss:  0.180413
+[Epoch 0237/1000]	Epsilon:0.3819	#Expl.:95/262	#Buy:125	#Sell:119	#Hold:18	#Stocks:6	PV:₩10,074,550	POS:4	NEG:0	Loss:  0.157771
+[Epoch 0238/1000]	Epsilon:0.3814	#Expl.:97/262	#Buy:121	#Sell:104	#Hold:37	#Stocks:17	PV:₩10,060,750	POS:2	NEG:2	Loss:  0.184869
+[Epoch 0239/1000]	Epsilon:0.3809	#Expl.:103/262	#Buy:129	#Sell:117	#Hold:16	#Stocks:12	PV:₩10,059,700	POS:3	NEG:1	Loss:  0.168659
+[Epoch 0240/1000]	Epsilon:0.3804	#Expl.:105/262	#Buy:133	#Sell:120	#Hold:9	#Stocks:13	PV:₩10,064,300	POS:2	NEG:2	Loss:  0.168946
+[Epoch 0241/1000]	Epsilon:0.3799	#Expl.:96/262	#Buy:134	#Sell:125	#Hold:3	#Stocks:9	PV:₩10,108,950	POS:3	NEG:1	Loss:  0.177261
+[Epoch 0242/1000]	Epsilon:0.3794	#Expl.:106/262	#Buy:119	#Sell:105	#Hold:38	#Stocks:14	PV:₩10,077,150	POS:3	NEG:1	Loss:  0.160156
+[Epoch 0243/1000]	Epsilon:0.3789	#Expl.:89/262	#Buy:142	#Sell:120	#Hold:0	#Stocks:22	PV:₩10,219,950	POS:3	NEG:1	Loss:  0.159470
+[Epoch 0244/1000]	Epsilon:0.3784	#Expl.:105/262	#Buy:132	#Sell:130	#Hold:0	#Stocks:2	PV:₩10,072,650	POS:3	NEG:1	Loss:  0.165416
+[Epoch 0245/1000]	Epsilon:0.3779	#Expl.:102/262	#Buy:121	#Sell:114	#Hold:27	#Stocks:7	PV:₩10,034,150	POS:3	NEG:1	Loss:  0.166526
+[Epoch 0246/1000]	Epsilon:0.3774	#Expl.:87/262	#Buy:133	#Sell:124	#Hold:5	#Stocks:9	PV:₩10,145,400	POS:4	NEG:0	Loss:  0.143464
+[Epoch 0247/1000]	Epsilon:0.3769	#Expl.:92/262	#Buy:117	#Sell:113	#Hold:32	#Stocks:4	PV:₩10,031,800	POS:3	NEG:1	Loss:  0.166814
+[Epoch 0248/1000]	Epsilon:0.3764	#Expl.:96/262	#Buy:127	#Sell:110	#Hold:25	#Stocks:17	PV:₩10,107,300	POS:3	NEG:1	Loss:  0.169731
+[Epoch 0249/1000]	Epsilon:0.3759	#Expl.:98/262	#Buy:129	#Sell:117	#Hold:16	#Stocks:12	PV:₩10,074,350	POS:2	NEG:2	Loss:  0.181916
+[Epoch 0250/1000]	Epsilon:0.3754	#Expl.:100/262	#Buy:132	#Sell:130	#Hold:0	#Stocks:2	PV:₩10,124,650	POS:3	NEG:1	Loss:  0.165868
+[Epoch 0251/1000]	Epsilon:0.3749	#Expl.:80/262	#Buy:128	#Sell:121	#Hold:13	#Stocks:7	PV:₩10,078,800	POS:3	NEG:1	Loss:  0.159110
+[Epoch 0252/1000]	Epsilon:0.3744	#Expl.:106/262	#Buy:124	#Sell:114	#Hold:24	#Stocks:10	PV:₩10,088,450	POS:3	NEG:1	Loss:  0.176559
+[Epoch 0253/1000]	Epsilon:0.3739	#Expl.:105/262	#Buy:138	#Sell:124	#Hold:0	#Stocks:14	PV:₩10,168,650	POS:3	NEG:1	Loss:  0.168134
+[Epoch 0254/1000]	Epsilon:0.3734	#Expl.:93/262	#Buy:140	#Sell:112	#Hold:10	#Stocks:28	PV:₩10,205,900	POS:3	NEG:1	Loss:  0.175339
+[Epoch 0255/1000]	Epsilon:0.3729	#Expl.:95/262	#Buy:121	#Sell:121	#Hold:20	#Stocks:0	PV:₩10,060,100	POS:2	NEG:2	Loss:  0.171346
+[Epoch 0256/1000]	Epsilon:0.3724	#Expl.:94/262	#Buy:134	#Sell:120	#Hold:8	#Stocks:14	PV:₩10,120,800	POS:3	NEG:1	Loss:  0.164803
+[Epoch 0257/1000]	Epsilon:0.3719	#Expl.:98/262	#Buy:125	#Sell:111	#Hold:26	#Stocks:14	PV:₩10,112,650	POS:4	NEG:0	Loss:  0.146484
+[Epoch 0258/1000]	Epsilon:0.3714	#Expl.:101/262	#Buy:120	#Sell:115	#Hold:27	#Stocks:5	PV:₩9,991,900	POS:2	NEG:2	Loss:  0.182606
+[Epoch 0259/1000]	Epsilon:0.3709	#Expl.:101/262	#Buy:131	#Sell:123	#Hold:8	#Stocks:8	PV:₩10,096,850	POS:3	NEG:1	Loss:  0.173539
+[Epoch 0260/1000]	Epsilon:0.3704	#Expl.:98/262	#Buy:127	#Sell:115	#Hold:20	#Stocks:12	PV:₩10,082,500	POS:3	NEG:1	Loss:  0.163820
+[Epoch 0261/1000]	Epsilon:0.3699	#Expl.:104/262	#Buy:124	#Sell:118	#Hold:20	#Stocks:6	PV:₩10,059,050	POS:3	NEG:1	Loss:  0.163596
+[Epoch 0262/1000]	Epsilon:0.3694	#Expl.:94/262	#Buy:138	#Sell:124	#Hold:0	#Stocks:14	PV:₩10,100,150	POS:3	NEG:1	Loss:  0.156029
+[Epoch 0263/1000]	Epsilon:0.3689	#Expl.:103/262	#Buy:142	#Sell:117	#Hold:3	#Stocks:25	PV:₩10,250,350	POS:4	NEG:0	Loss:  0.140747
+[Epoch 0264/1000]	Epsilon:0.3684	#Expl.:92/262	#Buy:137	#Sell:121	#Hold:4	#Stocks:16	PV:₩10,080,300	POS:3	NEG:1	Loss:  0.173403
+[Epoch 0265/1000]	Epsilon:0.3679	#Expl.:91/262	#Buy:125	#Sell:109	#Hold:28	#Stocks:16	PV:₩10,098,450	POS:3	NEG:1	Loss:  0.159576
+[Epoch 0266/1000]	Epsilon:0.3674	#Expl.:89/262	#Buy:131	#Sell:124	#Hold:7	#Stocks:7	PV:₩10,094,450	POS:3	NEG:1	Loss:  0.162439
+[Epoch 0267/1000]	Epsilon:0.3669	#Expl.:87/262	#Buy:134	#Sell:127	#Hold:1	#Stocks:7	PV:₩10,097,050	POS:3	NEG:1	Loss:  0.165173
+[Epoch 0268/1000]	Epsilon:0.3664	#Expl.:99/262	#Buy:130	#Sell:121	#Hold:11	#Stocks:9	PV:₩10,066,100	POS:3	NEG:1	Loss:  0.165188
+[Epoch 0269/1000]	Epsilon:0.3659	#Expl.:95/262	#Buy:129	#Sell:122	#Hold:11	#Stocks:7	PV:₩10,084,750	POS:3	NEG:1	Loss:  0.167208
+[Epoch 0270/1000]	Epsilon:0.3654	#Expl.:93/262	#Buy:127	#Sell:116	#Hold:19	#Stocks:11	PV:₩10,068,950	POS:3	NEG:1	Loss:  0.166317
+[Epoch 0271/1000]	Epsilon:0.3649	#Expl.:103/262	#Buy:119	#Sell:117	#Hold:26	#Stocks:2	PV:₩10,044,600	POS:3	NEG:1	Loss:  0.152929
+[Epoch 0272/1000]	Epsilon:0.3644	#Expl.:81/262	#Buy:133	#Sell:114	#Hold:15	#Stocks:19	PV:₩10,153,250	POS:4	NEG:0	Loss:  0.148524
+[Epoch 0273/1000]	Epsilon:0.3639	#Expl.:89/262	#Buy:118	#Sell:117	#Hold:27	#Stocks:1	PV:₩10,007,900	POS:2	NEG:2	Loss:  0.190160
+[Epoch 0274/1000]	Epsilon:0.3634	#Expl.:95/262	#Buy:132	#Sell:118	#Hold:12	#Stocks:14	PV:₩10,046,500	POS:3	NEG:1	Loss:  0.164186
+[Epoch 0275/1000]	Epsilon:0.3629	#Expl.:87/262	#Buy:131	#Sell:123	#Hold:8	#Stocks:8	PV:₩10,075,950	POS:3	NEG:1	Loss:  0.161695
+[Epoch 0276/1000]	Epsilon:0.3624	#Expl.:103/262	#Buy:120	#Sell:116	#Hold:26	#Stocks:4	PV:₩9,995,400	POS:3	NEG:1	Loss:  0.156187
+[Epoch 0277/1000]	Epsilon:0.3619	#Expl.:96/262	#Buy:129	#Sell:125	#Hold:8	#Stocks:4	PV:₩10,077,050	POS:4	NEG:0	Loss:  0.144133
+[Epoch 0278/1000]	Epsilon:0.3614	#Expl.:83/262	#Buy:133	#Sell:127	#Hold:2	#Stocks:6	PV:₩10,077,500	POS:3	NEG:1	Loss:  0.153475
+[Epoch 0279/1000]	Epsilon:0.3609	#Expl.:89/262	#Buy:130	#Sell:116	#Hold:16	#Stocks:14	PV:₩10,108,450	POS:3	NEG:1	Loss:  0.161187
+[Epoch 0280/1000]	Epsilon:0.3604	#Expl.:101/262	#Buy:113	#Sell:109	#Hold:40	#Stocks:4	PV:₩10,033,450	POS:3	NEG:1	Loss:  0.166541
+[Epoch 0281/1000]	Epsilon:0.3599	#Expl.:92/262	#Buy:127	#Sell:119	#Hold:16	#Stocks:8	PV:₩10,016,000	POS:3	NEG:1	Loss:  0.170279
+[Epoch 0282/1000]	Epsilon:0.3594	#Expl.:78/262	#Buy:121	#Sell:115	#Hold:26	#Stocks:6	PV:₩10,011,400	POS:2	NEG:2	Loss:  0.183510
+[Epoch 0283/1000]	Epsilon:0.3589	#Expl.:90/262	#Buy:140	#Sell:122	#Hold:0	#Stocks:18	PV:₩10,158,150	POS:3	NEG:1	Loss:  0.168783
+[Epoch 0284/1000]	Epsilon:0.3584	#Expl.:94/262	#Buy:127	#Sell:114	#Hold:21	#Stocks:13	PV:₩10,075,300	POS:3	NEG:1	Loss:  0.162929
+[Epoch 0285/1000]	Epsilon:0.3579	#Expl.:92/262	#Buy:127	#Sell:119	#Hold:16	#Stocks:8	PV:₩10,007,150	POS:2	NEG:2	Loss:  0.184969
+[Epoch 0286/1000]	Epsilon:0.3574	#Expl.:76/262	#Buy:125	#Sell:119	#Hold:18	#Stocks:6	PV:₩10,068,450	POS:3	NEG:1	Loss:  0.164526
+[Epoch 0287/1000]	Epsilon:0.3569	#Expl.:83/262	#Buy:135	#Sell:120	#Hold:7	#Stocks:15	PV:₩10,121,250	POS:3	NEG:1	Loss:  0.161565
+[Epoch 0288/1000]	Epsilon:0.3564	#Expl.:92/262	#Buy:129	#Sell:125	#Hold:8	#Stocks:4	PV:₩10,093,200	POS:2	NEG:2	Loss:  0.190420
+[Epoch 0289/1000]	Epsilon:0.3559	#Expl.:93/262	#Buy:138	#Sell:121	#Hold:3	#Stocks:17	PV:₩10,086,100	POS:3	NEG:1	Loss:  0.155748
+[Epoch 0290/1000]	Epsilon:0.3554	#Expl.:102/262	#Buy:137	#Sell:116	#Hold:9	#Stocks:21	PV:₩10,161,800	POS:3	NEG:1	Loss:  0.165555
+[Epoch 0291/1000]	Epsilon:0.3549	#Expl.:91/262	#Buy:140	#Sell:121	#Hold:1	#Stocks:19	PV:₩10,159,700	POS:3	NEG:1	Loss:  0.167391
+[Epoch 0292/1000]	Epsilon:0.3544	#Expl.:84/262	#Buy:122	#Sell:117	#Hold:23	#Stocks:5	PV:₩10,069,150	POS:2	NEG:2	Loss:  0.179368
+[Epoch 0293/1000]	Epsilon:0.3539	#Expl.:104/262	#Buy:129	#Sell:116	#Hold:17	#Stocks:13	PV:₩10,103,650	POS:3	NEG:1	Loss:  0.159309
+[Epoch 0294/1000]	Epsilon:0.3534	#Expl.:98/262	#Buy:139	#Sell:123	#Hold:0	#Stocks:16	PV:₩10,162,450	POS:3	NEG:1	Loss:  0.159043
+[Epoch 0295/1000]	Epsilon:0.3529	#Expl.:96/262	#Buy:126	#Sell:122	#Hold:14	#Stocks:4	PV:₩10,060,550	POS:3	NEG:1	Loss:  0.177409
+[Epoch 0296/1000]	Epsilon:0.3524	#Expl.:95/262	#Buy:122	#Sell:114	#Hold:26	#Stocks:8	PV:₩10,028,850	POS:3	NEG:1	Loss:  0.163028
+[Epoch 0297/1000]	Epsilon:0.3519	#Expl.:92/262	#Buy:120	#Sell:111	#Hold:31	#Stocks:9	PV:₩10,058,550	POS:2	NEG:2	Loss:  0.184911
+[Epoch 0298/1000]	Epsilon:0.3514	#Expl.:95/262	#Buy:132	#Sell:126	#Hold:4	#Stocks:6	PV:₩9,995,500	POS:3	NEG:1	Loss:  0.164653
+[Epoch 0299/1000]	Epsilon:0.3509	#Expl.:95/262	#Buy:134	#Sell:119	#Hold:9	#Stocks:15	PV:₩10,054,650	POS:3	NEG:1	Loss:  0.156959
+[Epoch 0300/1000]	Epsilon:0.3504	#Expl.:101/262	#Buy:128	#Sell:128	#Hold:6	#Stocks:0	PV:₩10,064,350	POS:3	NEG:1	Loss:  0.172743
+[Epoch 0301/1000]	Epsilon:0.3498	#Expl.:92/262	#Buy:120	#Sell:114	#Hold:28	#Stocks:6	PV:₩10,020,000	POS:3	NEG:1	Loss:  0.162613
+[Epoch 0302/1000]	Epsilon:0.3493	#Expl.:108/262	#Buy:147	#Sell:114	#Hold:1	#Stocks:33	PV:₩10,211,250	POS:3	NEG:1	Loss:  0.161637
+[Epoch 0303/1000]	Epsilon:0.3488	#Expl.:101/262	#Buy:123	#Sell:122	#Hold:17	#Stocks:1	PV:₩10,057,700	POS:3	NEG:1	Loss:  0.167887
+[Epoch 0304/1000]	Epsilon:0.3483	#Expl.:104/262	#Buy:132	#Sell:130	#Hold:0	#Stocks:2	PV:₩10,062,050	POS:2	NEG:2	Loss:  0.173718
+[Epoch 0305/1000]	Epsilon:0.3478	#Expl.:93/262	#Buy:132	#Sell:122	#Hold:8	#Stocks:10	PV:₩10,010,350	POS:3	NEG:1	Loss:  0.176081
+[Epoch 0306/1000]	Epsilon:0.3473	#Expl.:91/262	#Buy:124	#Sell:110	#Hold:28	#Stocks:14	PV:₩10,087,250	POS:3	NEG:1	Loss:  0.159668
+[Epoch 0307/1000]	Epsilon:0.3468	#Expl.:91/262	#Buy:140	#Sell:122	#Hold:0	#Stocks:18	PV:₩10,124,650	POS:3	NEG:1	Loss:  0.159861
+[Epoch 0308/1000]	Epsilon:0.3463	#Expl.:90/262	#Buy:125	#Sell:112	#Hold:25	#Stocks:13	PV:₩10,035,250	POS:3	NEG:1	Loss:  0.158906
+[Epoch 0309/1000]	Epsilon:0.3458	#Expl.:80/262	#Buy:130	#Sell:124	#Hold:8	#Stocks:6	PV:₩10,080,650	POS:3	NEG:1	Loss:  0.165879
+[Epoch 0310/1000]	Epsilon:0.3453	#Expl.:85/262	#Buy:119	#Sell:117	#Hold:26	#Stocks:2	PV:₩9,999,100	POS:2	NEG:2	Loss:  0.172142
+[Epoch 0311/1000]	Epsilon:0.3448	#Expl.:91/262	#Buy:126	#Sell:123	#Hold:13	#Stocks:3	PV:₩10,034,100	POS:3	NEG:1	Loss:  0.166458
+[Epoch 0312/1000]	Epsilon:0.3443	#Expl.:91/262	#Buy:126	#Sell:117	#Hold:19	#Stocks:9	PV:₩10,105,300	POS:3	NEG:1	Loss:  0.156246
+[Epoch 0313/1000]	Epsilon:0.3438	#Expl.:104/262	#Buy:127	#Sell:118	#Hold:17	#Stocks:9	PV:₩10,008,000	POS:2	NEG:2	Loss:  0.181130
+[Epoch 0314/1000]	Epsilon:0.3433	#Expl.:88/262	#Buy:115	#Sell:106	#Hold:41	#Stocks:9	PV:₩10,081,850	POS:3	NEG:1	Loss:  0.162935
+[Epoch 0315/1000]	Epsilon:0.3428	#Expl.:95/262	#Buy:132	#Sell:124	#Hold:6	#Stocks:8	PV:₩10,077,750	POS:3	NEG:1	Loss:  0.159189
+[Epoch 0316/1000]	Epsilon:0.3423	#Expl.:84/262	#Buy:134	#Sell:119	#Hold:9	#Stocks:15	PV:₩10,158,850	POS:3	NEG:1	Loss:  0.162971
+[Epoch 0317/1000]	Epsilon:0.3418	#Expl.:95/262	#Buy:129	#Sell:118	#Hold:15	#Stocks:11	PV:₩10,061,500	POS:3	NEG:1	Loss:  0.159679
+[Epoch 0318/1000]	Epsilon:0.3413	#Expl.:79/262	#Buy:128	#Sell:114	#Hold:20	#Stocks:14	PV:₩10,117,700	POS:3	NEG:1	Loss:  0.161076
+[Epoch 0319/1000]	Epsilon:0.3408	#Expl.:97/262	#Buy:126	#Sell:115	#Hold:21	#Stocks:11	PV:₩10,054,550	POS:3	NEG:1	Loss:  0.160634
+[Epoch 0320/1000]	Epsilon:0.3403	#Expl.:80/262	#Buy:131	#Sell:117	#Hold:14	#Stocks:14	PV:₩10,084,000	POS:3	NEG:1	Loss:  0.158197
+[Epoch 0321/1000]	Epsilon:0.3398	#Expl.:86/262	#Buy:134	#Sell:123	#Hold:5	#Stocks:11	PV:₩10,086,800	POS:3	NEG:1	Loss:  0.155156
+[Epoch 0322/1000]	Epsilon:0.3393	#Expl.:89/262	#Buy:133	#Sell:128	#Hold:1	#Stocks:5	PV:₩10,020,800	POS:3	NEG:1	Loss:  0.154945
+[Epoch 0323/1000]	Epsilon:0.3388	#Expl.:81/262	#Buy:121	#Sell:114	#Hold:27	#Stocks:7	PV:₩10,057,000	POS:3	NEG:1	Loss:  0.159319
+[Epoch 0324/1000]	Epsilon:0.3383	#Expl.:97/262	#Buy:129	#Sell:119	#Hold:14	#Stocks:10	PV:₩10,118,350	POS:3	NEG:1	Loss:  0.158491
+[Epoch 0325/1000]	Epsilon:0.3378	#Expl.:94/262	#Buy:130	#Sell:120	#Hold:12	#Stocks:10	PV:₩10,038,650	POS:2	NEG:2	Loss:  0.181663
+[Epoch 0326/1000]	Epsilon:0.3373	#Expl.:85/262	#Buy:117	#Sell:113	#Hold:32	#Stocks:4	PV:₩10,032,950	POS:3	NEG:1	Loss:  0.158030
+[Epoch 0327/1000]	Epsilon:0.3368	#Expl.:90/262	#Buy:131	#Sell:122	#Hold:9	#Stocks:9	PV:₩10,065,150	POS:3	NEG:1	Loss:  0.162249
+[Epoch 0328/1000]	Epsilon:0.3363	#Expl.:91/262	#Buy:130	#Sell:114	#Hold:18	#Stocks:16	PV:₩10,022,850	POS:2	NEG:2	Loss:  0.174252
+[Epoch 0329/1000]	Epsilon:0.3358	#Expl.:80/262	#Buy:122	#Sell:115	#Hold:25	#Stocks:7	PV:₩10,087,900	POS:3	NEG:1	Loss:  0.163657
+[Epoch 0330/1000]	Epsilon:0.3353	#Expl.:108/262	#Buy:133	#Sell:122	#Hold:7	#Stocks:11	PV:₩10,109,350	POS:2	NEG:2	Loss:  0.179982
+[Epoch 0331/1000]	Epsilon:0.3348	#Expl.:93/262	#Buy:124	#Sell:105	#Hold:33	#Stocks:19	PV:₩10,075,400	POS:3	NEG:1	Loss:  0.160980
+[Epoch 0332/1000]	Epsilon:0.3343	#Expl.:90/262	#Buy:136	#Sell:124	#Hold:2	#Stocks:12	PV:₩10,137,600	POS:4	NEG:0	Loss:  0.144171
+[Epoch 0333/1000]	Epsilon:0.3338	#Expl.:90/262	#Buy:138	#Sell:124	#Hold:0	#Stocks:14	PV:₩10,137,150	POS:3	NEG:1	Loss:  0.158862
+[Epoch 0334/1000]	Epsilon:0.3333	#Expl.:92/262	#Buy:124	#Sell:117	#Hold:21	#Stocks:7	PV:₩10,053,300	POS:4	NEG:0	Loss:  0.148542
+[Epoch 0335/1000]	Epsilon:0.3328	#Expl.:71/262	#Buy:132	#Sell:115	#Hold:15	#Stocks:17	PV:₩10,128,500	POS:4	NEG:0	Loss:  0.141956
+[Epoch 0336/1000]	Epsilon:0.3323	#Expl.:90/262	#Buy:124	#Sell:113	#Hold:25	#Stocks:11	PV:₩10,054,300	POS:3	NEG:1	Loss:  0.152587
+[Epoch 0337/1000]	Epsilon:0.3318	#Expl.:93/262	#Buy:133	#Sell:117	#Hold:12	#Stocks:16	PV:₩10,090,450	POS:3	NEG:1	Loss:  0.175245
+[Epoch 0338/1000]	Epsilon:0.3313	#Expl.:83/262	#Buy:129	#Sell:122	#Hold:11	#Stocks:7	PV:₩10,038,600	POS:3	NEG:1	Loss:  0.158436
+[Epoch 0339/1000]	Epsilon:0.3308	#Expl.:98/262	#Buy:120	#Sell:114	#Hold:28	#Stocks:6	PV:₩10,057,700	POS:3	NEG:1	Loss:  0.161665
+[Epoch 0340/1000]	Epsilon:0.3303	#Expl.:83/262	#Buy:119	#Sell:113	#Hold:30	#Stocks:6	PV:₩10,033,350	POS:2	NEG:2	Loss:  0.171072
+[Epoch 0341/1000]	Epsilon:0.3298	#Expl.:80/262	#Buy:134	#Sell:116	#Hold:12	#Stocks:18	PV:₩10,083,800	POS:3	NEG:1	Loss:  0.159580
+[Epoch 0342/1000]	Epsilon:0.3293	#Expl.:93/262	#Buy:128	#Sell:121	#Hold:13	#Stocks:7	PV:₩10,085,850	POS:3	NEG:1	Loss:  0.163523
+[Epoch 0343/1000]	Epsilon:0.3288	#Expl.:90/262	#Buy:128	#Sell:119	#Hold:15	#Stocks:9	PV:₩10,116,550	POS:2	NEG:2	Loss:  0.174330
+[Epoch 0344/1000]	Epsilon:0.3283	#Expl.:111/262	#Buy:132	#Sell:127	#Hold:3	#Stocks:5	PV:₩10,001,050	POS:3	NEG:1	Loss:  0.161101
+[Epoch 0345/1000]	Epsilon:0.3278	#Expl.:83/262	#Buy:130	#Sell:121	#Hold:11	#Stocks:9	PV:₩10,036,400	POS:2	NEG:2	Loss:  0.183958
+[Epoch 0346/1000]	Epsilon:0.3273	#Expl.:101/262	#Buy:113	#Sell:108	#Hold:41	#Stocks:5	PV:₩9,973,300	POS:2	NEG:2	Loss:  0.175081
+[Epoch 0347/1000]	Epsilon:0.3268	#Expl.:82/262	#Buy:125	#Sell:112	#Hold:25	#Stocks:13	PV:₩10,062,350	POS:4	NEG:0	Loss:  0.144699
+[Epoch 0348/1000]	Epsilon:0.3263	#Expl.:90/262	#Buy:132	#Sell:119	#Hold:11	#Stocks:13	PV:₩10,039,050	POS:3	NEG:1	Loss:  0.168847
+[Epoch 0349/1000]	Epsilon:0.3258	#Expl.:84/262	#Buy:130	#Sell:116	#Hold:16	#Stocks:14	PV:₩10,077,100	POS:3	NEG:1	Loss:  0.170255
+[Epoch 0350/1000]	Epsilon:0.3253	#Expl.:91/262	#Buy:124	#Sell:117	#Hold:21	#Stocks:7	PV:₩10,088,800	POS:3	NEG:1	Loss:  0.163561
+[Epoch 0351/1000]	Epsilon:0.3248	#Expl.:74/262	#Buy:134	#Sell:120	#Hold:8	#Stocks:14	PV:₩10,105,000	POS:3	NEG:1	Loss:  0.167309
+[Epoch 0352/1000]	Epsilon:0.3243	#Expl.:79/262	#Buy:132	#Sell:118	#Hold:12	#Stocks:14	PV:₩10,061,350	POS:3	NEG:1	Loss:  0.166182
+[Epoch 0353/1000]	Epsilon:0.3238	#Expl.:85/262	#Buy:124	#Sell:115	#Hold:23	#Stocks:9	PV:₩10,038,300	POS:3	NEG:1	Loss:  0.157766
+[Epoch 0354/1000]	Epsilon:0.3233	#Expl.:86/262	#Buy:136	#Sell:123	#Hold:3	#Stocks:13	PV:₩10,116,350	POS:3	NEG:1	Loss:  0.159935
+[Epoch 0355/1000]	Epsilon:0.3228	#Expl.:106/262	#Buy:129	#Sell:119	#Hold:14	#Stocks:10	PV:₩10,071,200	POS:3	NEG:1	Loss:  0.162848
+[Epoch 0356/1000]	Epsilon:0.3223	#Expl.:84/262	#Buy:131	#Sell:121	#Hold:10	#Stocks:10	PV:₩10,073,350	POS:3	NEG:1	Loss:  0.163546
+[Epoch 0357/1000]	Epsilon:0.3218	#Expl.:87/262	#Buy:145	#Sell:117	#Hold:0	#Stocks:28	PV:₩10,266,650	POS:3	NEG:1	Loss:  0.163221
+[Epoch 0358/1000]	Epsilon:0.3213	#Expl.:81/262	#Buy:127	#Sell:120	#Hold:15	#Stocks:7	PV:₩10,024,950	POS:2	NEG:2	Loss:  0.176297
+[Epoch 0359/1000]	Epsilon:0.3208	#Expl.:91/262	#Buy:132	#Sell:129	#Hold:1	#Stocks:3	PV:₩10,095,350	POS:3	NEG:1	Loss:  0.169929
+[Epoch 0360/1000]	Epsilon:0.3203	#Expl.:68/262	#Buy:127	#Sell:114	#Hold:21	#Stocks:13	PV:₩10,084,950	POS:3	NEG:1	Loss:  0.157558
+[Epoch 0361/1000]	Epsilon:0.3198	#Expl.:78/262	#Buy:121	#Sell:116	#Hold:25	#Stocks:5	PV:₩10,068,200	POS:3	NEG:1	Loss:  0.158487
+[Epoch 0362/1000]	Epsilon:0.3193	#Expl.:77/262	#Buy:136	#Sell:126	#Hold:0	#Stocks:10	PV:₩10,131,850	POS:4	NEG:0	Loss:  0.136092
+[Epoch 0363/1000]	Epsilon:0.3188	#Expl.:95/262	#Buy:118	#Sell:109	#Hold:35	#Stocks:9	PV:₩10,092,300	POS:4	NEG:0	Loss:  0.138410
+[Epoch 0364/1000]	Epsilon:0.3183	#Expl.:94/262	#Buy:132	#Sell:121	#Hold:9	#Stocks:11	PV:₩10,084,000	POS:3	NEG:1	Loss:  0.159303
+[Epoch 0365/1000]	Epsilon:0.3178	#Expl.:75/262	#Buy:129	#Sell:122	#Hold:11	#Stocks:7	PV:₩10,097,250	POS:3	NEG:1	Loss:  0.168046
+[Epoch 0366/1000]	Epsilon:0.3173	#Expl.:92/262	#Buy:125	#Sell:123	#Hold:14	#Stocks:2	PV:₩10,042,400	POS:3	NEG:1	Loss:  0.156665
+[Epoch 0367/1000]	Epsilon:0.3168	#Expl.:90/262	#Buy:138	#Sell:122	#Hold:2	#Stocks:16	PV:₩10,167,100	POS:3	NEG:1	Loss:  0.157126
+[Epoch 0368/1000]	Epsilon:0.3163	#Expl.:88/262	#Buy:121	#Sell:113	#Hold:28	#Stocks:8	PV:₩10,027,750	POS:3	NEG:1	Loss:  0.168512
+[Epoch 0369/1000]	Epsilon:0.3158	#Expl.:82/262	#Buy:125	#Sell:107	#Hold:30	#Stocks:18	PV:₩10,077,650	POS:3	NEG:1	Loss:  0.163894
+[Epoch 0370/1000]	Epsilon:0.3153	#Expl.:82/262	#Buy:142	#Sell:120	#Hold:0	#Stocks:22	PV:₩10,111,550	POS:2	NEG:2	Loss:  0.174966
+[Epoch 0371/1000]	Epsilon:0.3148	#Expl.:69/262	#Buy:123	#Sell:116	#Hold:23	#Stocks:7	PV:₩10,079,500	POS:3	NEG:1	Loss:  0.163670
+[Epoch 0372/1000]	Epsilon:0.3143	#Expl.:85/262	#Buy:138	#Sell:109	#Hold:15	#Stocks:29	PV:₩10,110,100	POS:3	NEG:1	Loss:  0.159201
+[Epoch 0373/1000]	Epsilon:0.3138	#Expl.:77/262	#Buy:134	#Sell:121	#Hold:7	#Stocks:13	PV:₩10,114,000	POS:3	NEG:1	Loss:  0.167453
+[Epoch 0374/1000]	Epsilon:0.3133	#Expl.:89/262	#Buy:132	#Sell:122	#Hold:8	#Stocks:10	PV:₩10,066,100	POS:3	NEG:1	Loss:  0.165986
+[Epoch 0375/1000]	Epsilon:0.3128	#Expl.:86/262	#Buy:126	#Sell:117	#Hold:19	#Stocks:9	PV:₩10,082,900	POS:3	NEG:1	Loss:  0.162187
+[Epoch 0376/1000]	Epsilon:0.3123	#Expl.:105/262	#Buy:130	#Sell:121	#Hold:11	#Stocks:9	PV:₩10,040,400	POS:3	NEG:1	Loss:  0.163140
+[Epoch 0377/1000]	Epsilon:0.3118	#Expl.:87/262	#Buy:129	#Sell:108	#Hold:25	#Stocks:21	PV:₩10,121,000	POS:3	NEG:1	Loss:  0.148350
+[Epoch 0378/1000]	Epsilon:0.3113	#Expl.:79/262	#Buy:123	#Sell:114	#Hold:25	#Stocks:9	PV:₩10,021,550	POS:3	NEG:1	Loss:  0.169375
+[Epoch 0379/1000]	Epsilon:0.3108	#Expl.:73/262	#Buy:146	#Sell:116	#Hold:0	#Stocks:30	PV:₩10,226,350	POS:3	NEG:1	Loss:  0.160813
+[Epoch 0380/1000]	Epsilon:0.3103	#Expl.:90/262	#Buy:131	#Sell:121	#Hold:10	#Stocks:10	PV:₩10,113,250	POS:4	NEG:0	Loss:  0.139257
+[Epoch 0381/1000]	Epsilon:0.3098	#Expl.:73/262	#Buy:132	#Sell:116	#Hold:14	#Stocks:16	PV:₩10,063,200	POS:3	NEG:1	Loss:  0.153916
+[Epoch 0382/1000]	Epsilon:0.3093	#Expl.:92/262	#Buy:133	#Sell:121	#Hold:8	#Stocks:12	PV:₩10,102,050	POS:2	NEG:2	Loss:  0.175996
+[Epoch 0383/1000]	Epsilon:0.3088	#Expl.:77/262	#Buy:134	#Sell:126	#Hold:2	#Stocks:8	PV:₩10,048,850	POS:2	NEG:2	Loss:  0.183133
+[Epoch 0384/1000]	Epsilon:0.3083	#Expl.:78/262	#Buy:134	#Sell:119	#Hold:9	#Stocks:15	PV:₩10,091,750	POS:3	NEG:1	Loss:  0.163784
+[Epoch 0385/1000]	Epsilon:0.3078	#Expl.:72/262	#Buy:131	#Sell:114	#Hold:17	#Stocks:17	PV:₩10,080,700	POS:3	NEG:1	Loss:  0.167068
+[Epoch 0386/1000]	Epsilon:0.3073	#Expl.:91/262	#Buy:128	#Sell:123	#Hold:11	#Stocks:5	PV:₩10,025,350	POS:3	NEG:1	Loss:  0.151298
+[Epoch 0387/1000]	Epsilon:0.3068	#Expl.:85/262	#Buy:127	#Sell:114	#Hold:21	#Stocks:13	PV:₩10,067,100	POS:3	NEG:1	Loss:  0.161686
